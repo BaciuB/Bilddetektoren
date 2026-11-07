@@ -6,7 +6,7 @@ from PIL import Image, ImageOps
 PROJECT_FOLDER = Path(__file__).parent
 INPUT_FOLDER = PROJECT_FOLDER / "data" / "originals"
 OUTPUT_FOLDER = PROJECT_FOLDER / "data" / "compressed"
-QUALITIES = (80, 40)
+QUALITIES = (40, 20, 10, 1)
 IMAGE_FORMATS = {".jpg", ".jpeg", ".png", ".webp"}
 
 
