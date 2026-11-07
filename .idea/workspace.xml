@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="Descrierea proiectului" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="test">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +16,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BaciuB"
+  }
+}]]></component>
   <component name="GithubPullRequestsUISettings"><![CDATA[{
   "selectedUrlAndAccountId": {
     "url": "https://github.com/BaciuB/Bilddetektoren.git",
@@ -21,23 +30,23 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0306090951899574" />
-      <entry key="MS500" value="1.5934217273147357" />
-      <entry key="S2" value="2.7447239338843303" />
-      <entry key="S5" value="3.3847353241330036" />
-      <entry key="S10" value="3.6690951784755677" />
-      <entry key="S30" value="3.8840297537927757" />
-      <entry key="S60" value="3.9412726731496206" />
-      <entry key="M2" value="3.9704481609669746" />
-      <entry key="M5" value="3.988133761821365" />
-      <entry key="M10" value="3.9940592685934466" />
-      <entry key="M15" value="3.9960378186475496" />
-      <entry key="M30" value="3.998018061918577" />
-      <entry key="H1" value="3.9990088190083366" />
-      <entry key="H2" value="3.999504356503968" />
-      <entry key="H4" value="3.999752165000375" />
-      <entry key="D1" value="3.999958692326096" />
-      <entry key="W1" value="3.9999940988586493" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0000000000000098" />
+      <entry key="S5" value="1.0000024790176951" />
+      <entry key="S10" value="1.0015744896617844" />
+      <entry key="S30" value="1.116335770665948" />
+      <entry key="S60" value="1.3410873812084967" />
+      <entry key="M2" value="1.5893430226884846" />
+      <entry key="M5" value="2.0893634210907814" />
+      <entry key="M10" value="2.9618319187735977" />
+      <entry key="M15" value="3.5850345804710178" />
+      <entry key="M30" value="4.537120149873363" />
+      <entry key="H1" value="5.18993533510551" />
+      <entry key="H2" value="5.5730886093368674" />
+      <entry key="H4" value="5.780769117964068" />
+      <entry key="D1" value="5.962632092444821" />
+      <entry key="W1" value="5.99464104896903" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -59,23 +68,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9358808623001803" />
-      <entry key="MS500" value="1.5605014747006343" />
-      <entry key="S2" value="2.7179866747737917" />
-      <entry key="S5" value="3.3687297425829663" />
-      <entry key="S10" value="3.659844187160208" />
-      <entry key="S30" value="3.880624377323445" />
-      <entry key="S60" value="3.939526672713154" />
-      <entry key="M2" value="3.969564086929768" />
-      <entry key="M5" value="3.9877774424438672" />
-      <entry key="M10" value="3.993880657915569" />
-      <entry key="M15" value="3.9959186444419426" />
-      <entry key="M30" value="3.9979584245553728" />
-      <entry key="H1" value="3.9989789877522086" />
-      <entry key="H2" value="3.9994894377310937" />
-      <entry key="H4" value="3.9997447048275885" />
-      <entry key="D1" value="3.9999574488547367" />
-      <entry key="W1" value="3.999993921217209" />
+      <entry key="MS100" value="0.7955364837549187" />
+      <entry key="MS500" value="0.9552829363824373" />
+      <entry key="S2" value="0.9886282245671648" />
+      <entry key="S5" value="0.9954381521762344" />
+      <entry key="S10" value="0.9992885180082565" />
+      <entry key="S30" value="1.1155440359270015" />
+      <entry key="S60" value="1.3406628790796267" />
+      <entry key="M2" value="1.5891141336936896" />
+      <entry key="M5" value="2.0892414042261684" />
+      <entry key="M10" value="2.961734811991607" />
+      <entry key="M15" value="3.5849519455230294" />
+      <entry key="M30" value="4.537064984651481" />
+      <entry key="H1" value="5.189902972578871" />
+      <entry key="H2" value="5.57307102143065" />
+      <entry key="H4" value="5.780759942308267" />
+      <entry key="D1" value="5.962630507419409" />
+      <entry key="W1" value="5.994640821134554" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -98,6 +107,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "node.js.detected.package.jshint": "true",
+    "node.js.selected.package.jshint": "",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
@@ -148,7 +159,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794080724378</updated>
-      <workItem from="1794080725385" duration="1230000" />
+      <workItem from="1794080725385" duration="2393000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -158,7 +169,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794080929625</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="test">
+      <option name="closed" value="true" />
+      <created>1794081975250</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1794081975250</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +185,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Descrierea proiectului" />
-    <option name="LAST_COMMIT_MESSAGE" value="Descrierea proiectului" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794080855174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
