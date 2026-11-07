@@ -4,9 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="test">
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am facut crearea folderelolr de unde o sa iau pozele iar apoi unde o sa le pun cu cele 3 stagii de compressed.&#10;am facut apoi si citirea folderului de unde o sa iau pozele iar in cazul in care nu exista respectivele formate in folder se reda un text corespunzator.&#10;apoi am facut de fapt compresia adica am luat originalul de la fiecare poza si l-am trecut prin 40 si 80 compresie salvandu-le pe fiecare in folderul compressed iar daca acest folder nu exista pana acum, l-am creat.&#10;la sfarsit am afisat path-ul copiei care tocmai fusese creata ca sa vad ce a produs programul.">
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_40/Screenshot 2026-11-07 144752_q40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_40/poza1test_q40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_40/poza2test_q40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_80/Screenshot 2026-11-07 144752_q80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_80/poza1test_q80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_80/poza2test_q80.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/originals/Screenshot 2026-11-07 144752.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/originals/poza1test.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/originals/poza2test.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,23 +38,23 @@
 }]]></component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0000000000000098" />
-      <entry key="S5" value="1.0000024790176951" />
-      <entry key="S10" value="1.0015744896617844" />
-      <entry key="S30" value="1.116335770665948" />
-      <entry key="S60" value="1.3410873812084967" />
-      <entry key="M2" value="1.5893430226884846" />
-      <entry key="M5" value="2.0893634210907814" />
-      <entry key="M10" value="2.9618319187735977" />
-      <entry key="M15" value="3.5850345804710178" />
-      <entry key="M30" value="4.537120149873363" />
-      <entry key="H1" value="5.18993533510551" />
-      <entry key="H2" value="5.5730886093368674" />
-      <entry key="H4" value="5.780769117964068" />
-      <entry key="D1" value="5.962632092444821" />
-      <entry key="W1" value="5.99464104896903" />
+      <entry key="MS100" value="1.0000000000216027" />
+      <entry key="MS500" value="1.0073604005773813" />
+      <entry key="S2" value="1.2929040405208365" />
+      <entry key="S5" value="1.611913655538479" />
+      <entry key="S10" value="1.782249100695219" />
+      <entry key="S30" value="1.9214003174136045" />
+      <entry key="S60" value="1.9599529489630356" />
+      <entry key="M2" value="2.0722931704511867" />
+      <entry key="M5" value="10.502967922261998" />
+      <entry key="M10" value="41.128442015772315" />
+      <entry key="M15" value="67.35342819801832" />
+      <entry key="M30" value="111.69868506837253" />
+      <entry key="H1" value="144.59007944705974" />
+      <entry key="H2" value="164.76868920208756" />
+      <entry key="H4" value="175.97172701791152" />
+      <entry key="D1" value="185.9350901417777" />
+      <entry key="W1" value="187.70349906994878" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
@@ -68,23 +76,23 @@
       <entry key="W1" value="0.0" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.7955364837549187" />
-      <entry key="MS500" value="0.9552829363824373" />
-      <entry key="S2" value="0.9886282245671648" />
-      <entry key="S5" value="0.9954381521762344" />
-      <entry key="S10" value="0.9992885180082565" />
-      <entry key="S30" value="1.1155440359270015" />
-      <entry key="S60" value="1.3406628790796267" />
-      <entry key="M2" value="1.5891141336936896" />
-      <entry key="M5" value="2.0892414042261684" />
-      <entry key="M10" value="2.961734811991607" />
-      <entry key="M15" value="3.5849519455230294" />
-      <entry key="M30" value="4.537064984651481" />
-      <entry key="H1" value="5.189902972578871" />
-      <entry key="H2" value="5.57307102143065" />
-      <entry key="H4" value="5.780759942308267" />
-      <entry key="D1" value="5.962630507419409" />
-      <entry key="W1" value="5.994640821134554" />
+      <entry key="MS100" value="0.9201876506447536" />
+      <entry key="MS500" value="0.9907410432597669" />
+      <entry key="S2" value="1.2875381695275023" />
+      <entry key="S5" value="1.609234380541117" />
+      <entry key="S10" value="1.7807672839238797" />
+      <entry key="S30" value="1.9208676659730914" />
+      <entry key="S60" value="1.9596812619620603" />
+      <entry key="M2" value="2.072149580483835" />
+      <entry key="M5" value="10.50265342109606" />
+      <entry key="M10" value="41.12779789230766" />
+      <entry key="M15" value="67.3527135430315" />
+      <entry key="M30" value="111.69807987118959" />
+      <entry key="H1" value="144.5896820420201" />
+      <entry key="H2" value="164.76846076903328" />
+      <entry key="H4" value="175.97160443767487" />
+      <entry key="D1" value="185.93506846074993" />
+      <entry key="W1" value="187.70349594077905" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
@@ -107,11 +115,17 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/bogda/Desktop/Facultate_3/Proiect de cercetare/KI_Bilddetektion/data/originals",
     "node.js.detected.package.jshint": "true",
     "node.js.selected.package.jshint": "",
     "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bogda\Desktop\Facultate_3\Proiect de cercetare\KI_Bilddetektion\data\originals" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KI_Bilddetektion" />
@@ -159,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1794080724378</updated>
-      <workItem from="1794080725385" duration="2393000" />
+      <workItem from="1794080725385" duration="4375000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -177,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794081975250</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="am facut crearea folderelolr de unde o sa iau pozele iar apoi unde o sa le pun cu cele 3 stagii de compressed.&#10;am facut apoi si citirea folderului de unde o sa iau pozele iar in cazul in care nu exista respectivele formate in folder se reda un text corespunzator.&#10;apoi am facut de fapt compresia adica am luat originalul de la fiecare poza si l-am trecut prin 40 si 80 compresie salvandu-le pe fiecare in folderul compressed iar daca acest folder nu exista pana acum, l-am creat.&#10;la sfarsit am afisat path-ul copiei care tocmai fusese creata ca sa vad ce a produs programul.">
+      <option name="closed" value="true" />
+      <created>1794083418928</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1794083418928</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,9 +208,10 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Descrierea proiectului" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="am facut crearea folderelolr de unde o sa iau pozele iar apoi unde o sa le pun cu cele 3 stagii de compressed.&#10;am facut apoi si citirea folderului de unde o sa iau pozele iar in cazul in care nu exista respectivele formate in folder se reda un text corespunzator.&#10;apoi am facut de fapt compresia adica am luat originalul de la fiecare poza si l-am trecut prin 40 si 80 compresie salvandu-le pe fiecare in folderul compressed iar daca acest folder nu exista pana acum, l-am creat.&#10;la sfarsit am afisat path-ul copiei care tocmai fusese creata ca sa vad ce a produs programul." />
+    <option name="LAST_COMMIT_MESSAGE" value="am facut crearea folderelolr de unde o sa iau pozele iar apoi unde o sa le pun cu cele 3 stagii de compressed.&#10;am facut apoi si citirea folderului de unde o sa iau pozele iar in cazul in care nu exista respectivele formate in folder se reda un text corespunzator.&#10;apoi am facut de fapt compresia adica am luat originalul de la fiecare poza si l-am trecut prin 40 si 80 compresie salvandu-le pe fiecare in folderul compressed iar daca acest folder nu exista pana acum, l-am creat.&#10;la sfarsit am afisat path-ul copiei care tocmai fusese creata ca sa vad ce a produs programul." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794080855174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794085075009" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
