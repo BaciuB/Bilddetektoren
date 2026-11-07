@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="Descrierea proiectului" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BaciuB/Bilddetektoren.git",
+    "accountId": "1680a31c-84f2-4b9b-8f23-258efb0fc969"
+  }
+}]]></component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.0306090951899574" />
+      <entry key="MS500" value="1.5934217273147357" />
+      <entry key="S2" value="2.7447239338843303" />
+      <entry key="S5" value="3.3847353241330036" />
+      <entry key="S10" value="3.6690951784755677" />
+      <entry key="S30" value="3.8840297537927757" />
+      <entry key="S60" value="3.9412726731496206" />
+      <entry key="M2" value="3.9704481609669746" />
+      <entry key="M5" value="3.988133761821365" />
+      <entry key="M10" value="3.9940592685934466" />
+      <entry key="M15" value="3.9960378186475496" />
+      <entry key="M30" value="3.998018061918577" />
+      <entry key="H1" value="3.9990088190083366" />
+      <entry key="H2" value="3.999504356503968" />
+      <entry key="H4" value="3.999752165000375" />
+      <entry key="D1" value="3.999958692326096" />
+      <entry key="W1" value="3.9999940988586493" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="0.0" />
+      <entry key="S10" value="0.0" />
+      <entry key="S30" value="0.0" />
+      <entry key="S60" value="0.0" />
+      <entry key="M2" value="0.0" />
+      <entry key="M5" value="0.0" />
+      <entry key="M10" value="0.0" />
+      <entry key="M15" value="0.0" />
+      <entry key="M30" value="0.0" />
+      <entry key="H1" value="0.0" />
+      <entry key="H2" value="0.0" />
+      <entry key="H4" value="0.0" />
+      <entry key="D1" value="0.0" />
+      <entry key="W1" value="0.0" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9358808623001803" />
+      <entry key="MS500" value="1.5605014747006343" />
+      <entry key="S2" value="2.7179866747737917" />
+      <entry key="S5" value="3.3687297425829663" />
+      <entry key="S10" value="3.659844187160208" />
+      <entry key="S30" value="3.880624377323445" />
+      <entry key="S60" value="3.939526672713154" />
+      <entry key="M2" value="3.969564086929768" />
+      <entry key="M5" value="3.9877774424438672" />
+      <entry key="M10" value="3.993880657915569" />
+      <entry key="M15" value="3.9959186444419426" />
+      <entry key="M30" value="3.9979584245553728" />
+      <entry key="H1" value="3.9989789877522086" />
+      <entry key="H2" value="3.9994894377310937" />
+      <entry key="H4" value="3.9997447048275885" />
+      <entry key="D1" value="3.9999574488547367" />
+      <entry key="W1" value="3.999993921217209" />
+    </decayedShown>
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 5,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3LnD1WERTcJcy4Mxme2Ir30bxO5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KI_Bilddetektion" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.11879.98" />
+        <option value="bundled-python-sdk-ebb3072d7bdf-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.11879.98" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="" />
+      <created>1794080724378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1794080724378</updated>
+      <workItem from="1794080725385" duration="1230000" />
+    </task>
+    <task id="LOCAL-00001" summary="Descrierea proiectului">
+      <option name="closed" value="true" />
+      <created>1794080929624</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1794080929625</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Descrierea proiectului" />
+    <option name="LAST_COMMIT_MESSAGE" value="Descrierea proiectului" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794080855174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
