@@ -1,0 +1,16 @@
+﻿image,version,width_px,height_px,file_size_kb
+poza0test.png,original,1895,1006,390.7
+poza0test.png,Q40,1895,1006,110.46
+poza0test.png,Q20,1895,1006,82.12
+poza0test.png,Q10,1895,1006,63.1
+poza0test.png,Q1,1895,1006,43.8
+poza1test.jpeg,original,1152,2048,131.33
+poza1test.jpeg,Q40,1152,2048,77.95
+poza1test.jpeg,Q20,1152,2048,61.8
+poza1test.jpeg,Q10,1152,2048,51.43
+poza1test.jpeg,Q1,1152,2048,40.43
+poza2test.jpeg,original,1200,1600,358.81
+poza2test.jpeg,Q40,1200,1600,204.29
+poza2test.jpeg,Q20,1200,1600,139.37
+poza2test.jpeg,Q10,1200,1600,87.52
+poza2test.jpeg,Q1,1200,1600,39.7
