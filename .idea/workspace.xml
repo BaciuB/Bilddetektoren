@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/compression_report.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/summarize_compression.py" afterDir="false" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am facut si compression_report.py care citeste imaginile originale si comprimatele, le masoara si le salveaza intr-un tabel.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -38,61 +36,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000000835959001" />
-      <entry key="MS500" value="1.1037094563012884" />
-      <entry key="S2" value="3.3428058361753994" />
-      <entry key="S5" value="8.621065885552587" />
-      <entry key="S10" value="16.966154944889475" />
-      <entry key="S30" value="45.48606724504414" />
-      <entry key="S60" value="75.62525464614943" />
-      <entry key="M2" value="117.75660577043189" />
-      <entry key="M5" value="186.25188093399424" />
-      <entry key="M10" value="243.85183480688644" />
-      <entry key="M15" value="282.48306111991974" />
-      <entry key="M30" value="353.93365620568795" />
-      <entry key="H1" value="416.0884645042848" />
-      <entry key="H2" value="458.6568663481894" />
-      <entry key="H4" value="483.79724188850776" />
-      <entry key="D1" value="507.0689928332176" />
-      <entry key="W1" value="511.2896742417885" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000002267446" />
+      <entry key="S2" value="1.0120540949000896" />
+      <entry key="S5" value="1.6685807585301546" />
+      <entry key="S10" value="4.473433798621274" />
+      <entry key="S30" value="14.55735012737253" />
+      <entry key="S60" value="26.035688386135007" />
+      <entry key="M2" value="59.142493602899684" />
+      <entry key="M5" value="153.48755704781436" />
+      <entry key="M10" value="244.87223184384507" />
+      <entry key="M15" value="301.43305230187184" />
+      <entry key="M30" value="397.74673975691127" />
+      <entry key="H1" value="477.91253460238283" />
+      <entry key="H2" value="532.181802391054" />
+      <entry key="H4" value="564.1509177281131" />
+      <entry key="D1" value="593.7315722365217" />
+      <entry key="W1" value="599.096981189572" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="0.0" />
-      <entry key="S10" value="0.0" />
-      <entry key="S30" value="0.0" />
-      <entry key="S60" value="0.0" />
-      <entry key="M2" value="0.0" />
-      <entry key="M5" value="0.0" />
-      <entry key="M10" value="0.0" />
-      <entry key="M15" value="0.0" />
-      <entry key="M30" value="0.0" />
-      <entry key="H1" value="0.0" />
-      <entry key="H2" value="0.0" />
-      <entry key="H4" value="0.0" />
-      <entry key="D1" value="0.0" />
-      <entry key="W1" value="0.0" />
+      <entry key="MS100" value="4.1112404694893716E-145" />
+      <entry key="MS500" value="1.32676674017077E-29" />
+      <entry key="S2" value="6.035296960774016E-8" />
+      <entry key="S5" value="0.00129502889197327" />
+      <entry key="S10" value="0.03598651167720155" />
+      <entry key="S30" value="0.3313715630141102" />
+      <entry key="S60" value="0.6095178392015841" />
+      <entry key="M2" value="0.9449109076060898" />
+      <entry key="M5" value="1.4063563087973507" />
+      <entry key="M10" value="1.6611192224762388" />
+      <entry key="M15" value="1.7633465617192317" />
+      <entry key="M30" value="1.8759101349450116" />
+      <entry key="H1" value="1.9364346118184028" />
+      <entry key="H2" value="1.9678267414199455" />
+      <entry key="H4" value="1.983814391216869" />
+      <entry key="D1" value="1.9972885362655983" />
+      <entry key="W1" value="1.9996123070422709" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460584374554912" />
-      <entry key="MS500" value="1.090530431637292" />
-      <entry key="S2" value="3.326206223933079" />
-      <entry key="S5" value="8.60581033140506" />
-      <entry key="S10" value="16.952926054716272" />
-      <entry key="S30" value="45.45288748705434" />
-      <entry key="S60" value="75.55495368663718" />
-      <entry key="M2" value="117.67519156826839" />
-      <entry key="M5" value="186.19635178669373" />
-      <entry key="M10" value="243.81830522518274" />
-      <entry key="M15" value="282.45909996999706" />
-      <entry key="M30" value="353.92066095345433" />
-      <entry key="H1" value="416.0816325865896" />
-      <entry key="H2" value="458.6533492976181" />
-      <entry key="H4" value="483.79545511999754" />
-      <entry key="D1" value="507.0686908150457" />
-      <entry key="W1" value="511.28963098860174" />
+      <entry key="MS100" value="0.9460576467255959" />
+      <entry key="MS500" value="0.9889709166050671" />
+      <entry key="S2" value="1.0092524523131818" />
+      <entry key="S5" value="1.6676934239904213" />
+      <entry key="S10" value="4.502242199599999" />
+      <entry key="S30" value="14.871242438065433" />
+      <entry key="S60" value="26.626760012505592" />
+      <entry key="M2" value="60.05945117358265" />
+      <entry key="M5" value="154.85744287305224" />
+      <entry key="M10" value="246.50437990131357" />
+      <entry key="M15" value="303.17363221206966" />
+      <entry key="M30" value="399.60906692082136" />
+      <entry key="H1" value="479.84148306479653" />
+      <entry key="H2" value="534.1456843727194" />
+      <entry key="H4" value="566.1327047704044" />
+      <entry key="D1" value="595.7285147950774" />
+      <entry key="W1" value="601.0965438667907" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -104,23 +102,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bogda/Desktop/Facultate_3/Proiect de cercetare/KI_Bilddetektion/data/originals&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.compression_report.executor": "Run",
+    "Python.main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Baciu/Desktop/Facultate_3/Proiect de cercetare/KI_Bilddetektion",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.interpreter.PyWorkspaceStructureConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bogda\Desktop\Facultate_3\Proiect de cercetare\KI_Bilddetektion\data\originals" />
@@ -140,9 +145,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/compression_report.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -165,9 +170,9 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="DEBUG_JUST_MY_CODE" value="false" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -187,8 +192,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.11879.98" />
-        <option value="bundled-python-sdk-ebb3072d7bdf-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.11879.98" />
+        <option value="bundled-python-sdk-34611be1ca5a-e0583fc556d1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-263.7307.206" />
       </set>
     </attachedChunks>
   </component>
@@ -200,7 +204,15 @@
       <option name="presentableId" value="Default" />
       <updated>1794080724378</updated>
       <workItem from="1794080725385" duration="5913000" />
-      <workItem from="1794156984606" duration="2484000" />
+      <workItem from="1794156984606" duration="3055000" />
+      <workItem from="1794160941827" duration="167000" />
+      <workItem from="1794175017685" duration="445000" />
+      <workItem from="1794212976473" duration="38000" />
+      <workItem from="1794225918434" duration="303000" />
+      <workItem from="1794226833856" duration="310000" />
+      <workItem from="1794236049854" duration="42000" />
+      <workItem from="1794240571933" duration="1098000" />
+      <workItem from="1794770467362" duration="1223000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -242,7 +254,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794085977710</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="am facut summarize_compression.py unde fac de fapt un tabel cu informatii despre pozele pe care le-am incarcat, si originalele si si comprimatele. noteaza numele, nivelul de compresie, latimea si inaltimea si marimea fisierului in KB.">
+      <option name="closed" value="true" />
+      <created>1794160167989</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1794160167989</updated>
+    </task>
+    <task id="LOCAL-00007" summary="am facut si compression_report.py care citeste imaginile originale si comprimatele, le masoara si le salveaza intr-un tabel.">
+      <option name="closed" value="true" />
+      <created>1794160387742</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1794160387742</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -254,9 +282,12 @@
     <MESSAGE value="am facut crearea folderelolr de unde o sa iau pozele iar apoi unde o sa le pun cu cele 3 stagii de compressed.&#10;am facut apoi si citirea folderului de unde o sa iau pozele iar in cazul in care nu exista respectivele formate in folder se reda un text corespunzator.&#10;apoi am facut de fapt compresia adica am luat originalul de la fiecare poza si l-am trecut prin 40 si 80 compresie salvandu-le pe fiecare in folderul compressed iar daca acest folder nu exista pana acum, l-am creat.&#10;la sfarsit am afisat path-ul copiei care tocmai fusese creata ca sa vad ce a produs programul." />
     <MESSAGE value="am facut un test cu 3 poze din galeria mea iar codul merge insa mi-am dat seama ca nivelele de compresie 80 si 40 sunt putin cam usoare de detectat asa ca am sa fac totusi 3 nivele de compresie si anume 40, 20, 10 pentru a pune in dificultate totusi putin oamenii" />
     <MESSAGE value="am avansat cu testul si am trecut la nivelurile 10,20,40 compresie.&#10;aici chiar se vede diferenta foarte bine dintre poze si chiar am stat si eu sa ma gandesc daca e facuta cu AI sau nu. Am fost curios sa incerc si cu compresie 1 iar acolo am testat toate cele 4 compresii si pe primul om adica mama.&#10;la 2 din 3 a raspuns bine. eu i-am aratat poza2test_q10 adica o poza facuta de mine la centrala iar ea la compresia 10 a crezut ca este poza facuta cu AI. I-am aratat apoi poza cu compresie 40 si am rugat-o sa imi spuna ce a facut-o sa decida ca poza e facuta cu AI. Am aflat multe chestii noi si o sa aleg pozele cu grija pentru ca culorile si de fapt ce apare in poza este foarte important." />
-    <option name="LAST_COMMIT_MESSAGE" value="am avansat cu testul si am trecut la nivelurile 10,20,40 compresie.&#10;aici chiar se vede diferenta foarte bine dintre poze si chiar am stat si eu sa ma gandesc daca e facuta cu AI sau nu. Am fost curios sa incerc si cu compresie 1 iar acolo am testat toate cele 4 compresii si pe primul om adica mama.&#10;la 2 din 3 a raspuns bine. eu i-am aratat poza2test_q10 adica o poza facuta de mine la centrala iar ea la compresia 10 a crezut ca este poza facuta cu AI. I-am aratat apoi poza cu compresie 40 si am rugat-o sa imi spuna ce a facut-o sa decida ca poza e facuta cu AI. Am aflat multe chestii noi si o sa aleg pozele cu grija pentru ca culorile si de fapt ce apare in poza este foarte important." />
+    <MESSAGE value="am facut summarize_compression.py unde fac de fapt un tabel cu informatii despre pozele pe care le-am incarcat, si originalele si si comprimatele. noteaza numele, nivelul de compresie, latimea si inaltimea si marimea fisierului in KB." />
+    <MESSAGE value="am facut si compression_report.py care citeste imaginile originale si comprimatele, le masoara si le salveaza intr-un tabel." />
+    <option name="LAST_COMMIT_MESSAGE" value="am facut si compression_report.py care citeste imaginile originale si comprimatele, le masoara si le salveaza intr-un tabel." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/KI_Bilddetektion$compression_report.coverage" NAME="compression_report Coverage Results" MODIFIED="1794160231874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794085623141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
