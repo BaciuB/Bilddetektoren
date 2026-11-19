@@ -1,7 +1,8 @@
 from pathlib import Path
 import csv
 import uuid
-
+import random
+from main import OUTPUT_FOLDER, QUALITIES
 import streamlit as st
 
 PROJECT_FOLDER = Path(__file__).resolve().parent
@@ -52,22 +53,60 @@ if not images:
     st.warning("Adaugă imaginile de test în data/originals.")
     st.stop()
 
+if "trials" not in st.session_state:
+    trials = []
+
+    for original_path in images:
+        versions = [{
+            "path": original_path,
+            "image": original_path.name,
+            "version": "original",
+        }]
+
+        for quality in QUALITIES:
+            compressed_path = (
+                OUTPUT_FOLDER
+                / f"quality_{quality}"
+                / f"{original_path.stem}_q{quality}.jpg"
+            )
+
+            if not compressed_path.is_file():
+                st.error(
+                    f"Lipsește varianta {compressed_path.name}. "
+                    "Rulează main.py, apoi reîncarcă pagina."
+                )
+                st.stop()
+
+            versions.append({
+                "path": compressed_path,
+                "image": original_path.name,
+                "version": f"Q{quality}",
+            })
+
+        selected_version = random.choice(versions)
+        trials.append(selected_version)
+
+    random.shuffle(trials)
+    st.session_state.trials = trials
+
+trials = st.session_state.trials
+
 if "image_index" not in st.session_state:
     st.session_state.image_index = 0
     st.session_state.answers = []
 
 index = st.session_state.image_index
 
-if index >= len(images):
+if index >= len(trials):
     st.success("Ai terminat! Mulțumim pentru participare.")
     st.write(f"Ai răspuns la {len(st.session_state.answers)} imagini.")
     st.stop()
 
-image_path = images[index]
+current_trial = trials[index]
 
-st.write(f"Imaginea {index + 1} din {len(images)}")
-st.progress(index / len(images))
-st.image(str(image_path))
+st.write(f"Imaginea {index + 1} din {len(trials)}")
+st.progress(index / len(trials))
+st.image(str(current_trial["path"]))
 
 with st.form(key=f"question_{index}"):
     answer = st.radio(
@@ -83,8 +122,8 @@ if submitted:
         st.warning("Alege un răspuns înainte să continui.")
     else:
         new_answer = {
-            "image": image_path.name,
-            "version": "original",
+            "image": current_trial["image"],
+            "version": current_trial["version"],
             "answer": answer,
         }
 
