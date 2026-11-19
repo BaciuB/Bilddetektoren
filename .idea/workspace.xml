@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am facut si compression_report.py care citeste imaginile originale si comprimatele, le masoara si le salveaza intr-un tabel.">
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="mici schimbari">
+      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,66 +32,66 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/BaciuB/Bilddetektoren.git&quot;,
-    &quot;accountId&quot;: &quot;1680a31c-84f2-4b9b-8f23-258efb0fc969&quot;
+    &quot;accountId&quot;: &quot;cf3c8d14-f092-41ff-85b0-f9cdc18fb037&quot;
   }
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000000002267446" />
-      <entry key="S2" value="1.0120540949000896" />
-      <entry key="S5" value="1.6685807585301546" />
-      <entry key="S10" value="4.473433798621274" />
-      <entry key="S30" value="14.55735012737253" />
-      <entry key="S60" value="26.035688386135007" />
-      <entry key="M2" value="59.142493602899684" />
-      <entry key="M5" value="153.48755704781436" />
-      <entry key="M10" value="244.87223184384507" />
-      <entry key="M15" value="301.43305230187184" />
-      <entry key="M30" value="397.74673975691127" />
-      <entry key="H1" value="477.91253460238283" />
-      <entry key="H2" value="532.181802391054" />
-      <entry key="H4" value="564.1509177281131" />
-      <entry key="D1" value="593.7315722365217" />
-      <entry key="W1" value="599.096981189572" />
+      <entry key="MS100" value="1.0007674039995365" />
+      <entry key="MS500" value="1.4161721898116837" />
+      <entry key="S2" value="2.797670749989493" />
+      <entry key="S5" value="3.958724304464562" />
+      <entry key="S10" value="6.772183741502569" />
+      <entry key="S30" value="16.90694775406041" />
+      <entry key="S60" value="28.47292218892717" />
+      <entry key="M2" value="61.52007898215551" />
+      <entry key="M5" value="155.84952543346174" />
+      <entry key="M10" value="247.36463637572288" />
+      <entry key="M15" value="304.01683606304186" />
+      <entry key="M30" value="400.47237969835896" />
+      <entry key="H1" value="480.74778393130265" />
+      <entry key="H2" value="535.0900950036049" />
+      <entry key="H4" value="567.1023153533832" />
+      <entry key="D1" value="596.7230479521892" />
+      <entry key="W1" value="602.0957524509399" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="4.1112404694893716E-145" />
-      <entry key="MS500" value="1.32676674017077E-29" />
-      <entry key="S2" value="6.035296960774016E-8" />
-      <entry key="S5" value="0.00129502889197327" />
-      <entry key="S10" value="0.03598651167720155" />
-      <entry key="S30" value="0.3313715630141102" />
-      <entry key="S60" value="0.6095178392015841" />
-      <entry key="M2" value="0.9449109076060898" />
-      <entry key="M5" value="1.4063563087973507" />
-      <entry key="M10" value="1.6611192224762388" />
-      <entry key="M15" value="1.7633465617192317" />
-      <entry key="M30" value="1.8759101349450116" />
-      <entry key="H1" value="1.9364346118184028" />
-      <entry key="H2" value="1.9678267414199455" />
-      <entry key="H4" value="1.983814391216869" />
-      <entry key="D1" value="1.9972885362655983" />
-      <entry key="W1" value="1.9996123070422709" />
+      <entry key="MS100" value="1.7401530903912645E-150" />
+      <entry key="MS500" value="1.1171654381416865E-30" />
+      <entry key="S2" value="3.251092849210432E-8" />
+      <entry key="S5" value="0.0010111410663890452" />
+      <entry key="S10" value="0.03179844600689677" />
+      <entry key="S30" value="0.31798303599181604" />
+      <entry key="S60" value="0.5970776001550381" />
+      <entry key="M2" value="0.9352183964207598" />
+      <entry key="M5" value="1.4005681220297994" />
+      <entry key="M10" value="1.6576973365320649" />
+      <entry key="M15" value="1.7609240808268392" />
+      <entry key="M30" value="1.8746211318682224" />
+      <entry key="H1" value="1.9357692017175507" />
+      <entry key="H2" value="1.9674886137370047" />
+      <entry key="H4" value="1.9836439464905509" />
+      <entry key="D1" value="1.9972599348427487" />
+      <entry key="W1" value="1.9996082163458027" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9460576467255959" />
-      <entry key="MS500" value="0.9889709166050671" />
-      <entry key="S2" value="1.0092524523131818" />
-      <entry key="S5" value="1.6676934239904213" />
-      <entry key="S10" value="4.502242199599999" />
-      <entry key="S30" value="14.871242438065433" />
-      <entry key="S60" value="26.626760012505592" />
-      <entry key="M2" value="60.05945117358265" />
-      <entry key="M5" value="154.85744287305224" />
-      <entry key="M10" value="246.50437990131357" />
-      <entry key="M15" value="303.17363221206966" />
-      <entry key="M30" value="399.60906692082136" />
-      <entry key="H1" value="479.84148306479653" />
-      <entry key="H2" value="534.1456843727194" />
-      <entry key="H4" value="566.1327047704044" />
-      <entry key="D1" value="595.7285147950774" />
-      <entry key="W1" value="601.0965438667907" />
+      <entry key="MS100" value="0.6205574240020559" />
+      <entry key="MS500" value="1.3098354783105448" />
+      <entry key="S2" value="2.7539138978895172" />
+      <entry key="S5" value="3.9380362539174185" />
+      <entry key="S10" value="6.786996162756377" />
+      <entry key="S30" value="17.204452141749904" />
+      <entry key="S60" value="29.05005655823052" />
+      <entry key="M2" value="62.42668877420302" />
+      <entry key="M5" value="157.21339510464364" />
+      <entry key="M10" value="248.99323298008065" />
+      <entry key="M15" value="305.75489855690455" />
+      <entry key="M30" value="402.33336406277436" />
+      <entry key="H1" value="482.67603798526534" />
+      <entry key="H2" value="537.0536237485342" />
+      <entry key="H4" value="569.0839242313269" />
+      <entry key="D1" value="598.7199605985909" />
+      <entry key="W1" value="604.0953108496075" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -102,30 +103,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.compression_report.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Baciu/Desktop/Facultate_3/Proiect de cercetare/KI_Bilddetektion",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.jshint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.jshint": "",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.interpreter.PyWorkspaceStructureConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.compression_report.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Baciu/Desktop/Facultate_3/Proiect de cercetare/KI_Bilddetektion&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.interpreter.PyWorkspaceStructureConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bogda\Desktop\Facultate_3\Proiect de cercetare\KI_Bilddetektion\data\originals" />
@@ -212,7 +213,10 @@
       <workItem from="1794226833856" duration="310000" />
       <workItem from="1794236049854" duration="42000" />
       <workItem from="1794240571933" duration="1098000" />
-      <workItem from="1794770467362" duration="1223000" />
+      <workItem from="1794770467362" duration="2101000" />
+      <workItem from="1794772612514" duration="5000" />
+      <workItem from="1795101078235" duration="1321000" />
+      <workItem from="1795103206963" duration="659000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -270,7 +274,15 @@
       <option name="project" value="LOCAL" />
       <updated>1794160387742</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="mici schimbari">
+      <option name="closed" value="true" />
+      <created>1794772030444</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1794772030444</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +296,8 @@
     <MESSAGE value="am avansat cu testul si am trecut la nivelurile 10,20,40 compresie.&#10;aici chiar se vede diferenta foarte bine dintre poze si chiar am stat si eu sa ma gandesc daca e facuta cu AI sau nu. Am fost curios sa incerc si cu compresie 1 iar acolo am testat toate cele 4 compresii si pe primul om adica mama.&#10;la 2 din 3 a raspuns bine. eu i-am aratat poza2test_q10 adica o poza facuta de mine la centrala iar ea la compresia 10 a crezut ca este poza facuta cu AI. I-am aratat apoi poza cu compresie 40 si am rugat-o sa imi spuna ce a facut-o sa decida ca poza e facuta cu AI. Am aflat multe chestii noi si o sa aleg pozele cu grija pentru ca culorile si de fapt ce apare in poza este foarte important." />
     <MESSAGE value="am facut summarize_compression.py unde fac de fapt un tabel cu informatii despre pozele pe care le-am incarcat, si originalele si si comprimatele. noteaza numele, nivelul de compresie, latimea si inaltimea si marimea fisierului in KB." />
     <MESSAGE value="am facut si compression_report.py care citeste imaginile originale si comprimatele, le masoara si le salveaza intr-un tabel." />
-    <option name="LAST_COMMIT_MESSAGE" value="am facut si compression_report.py care citeste imaginile originale si comprimatele, le masoara si le salveaza intr-un tabel." />
+    <MESSAGE value="mici schimbari" />
+    <option name="LAST_COMMIT_MESSAGE" value="mici schimbari" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$compression_report.coverage" NAME="compression_report Coverage Results" MODIFIED="1794160231874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
