@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am avansat cu pagina de ajutor si am si testat-o pentru 3 poze si merge">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am adaugat si functia save_answers care scrie raspunsurile participantului.">
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,61 +36,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.000001506884216" />
-      <entry key="MS500" value="1.0686982201376973" />
-      <entry key="S2" value="1.6504845779498618" />
-      <entry key="S5" value="2.6111855007565596" />
-      <entry key="S10" value="4.374733088271551" />
-      <entry key="S30" value="10.135661179658426" />
-      <entry key="S60" value="17.305856875793655" />
-      <entry key="M2" value="31.891124588607184" />
-      <entry key="M5" value="89.9856572580279" />
-      <entry key="M10" value="190.5656317925267" />
-      <entry key="M15" value="267.46393491296436" />
-      <entry key="M30" value="407.49707553860424" />
-      <entry key="H1" value="528.2385892195389" />
-      <entry key="H2" value="611.725362768919" />
-      <entry key="H4" value="661.5548710975933" />
-      <entry key="D1" value="708.0871213651459" />
-      <entry key="W1" value="716.5708452781945" />
+      <entry key="MS100" value="1.0000000000046814" />
+      <entry key="MS500" value="1.00778444600146" />
+      <entry key="S2" value="1.4953908695301965" />
+      <entry key="S5" value="2.528130612950646" />
+      <entry key="S10" value="4.827115753420692" />
+      <entry key="S30" value="13.09258386661649" />
+      <entry key="S60" value="22.18709501408232" />
+      <entry key="M2" value="37.96558239372597" />
+      <entry key="M5" value="94.803506757519" />
+      <entry key="M10" value="194.5930464431432" />
+      <entry key="M15" value="272.42280930594933" />
+      <entry key="M30" value="415.7589676444344" />
+      <entry key="H1" value="540.260828054879" />
+      <entry key="H2" value="626.6792282600977" />
+      <entry key="H4" value="678.365329942138" />
+      <entry key="D1" value="726.6962705421118" />
+      <entry key="W1" value="735.5143339065403" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="7.365965919558646E-113" />
-      <entry key="S5" value="1.4024645165006706E-45" />
-      <entry key="S10" value="3.7449494763818986E-23" />
-      <entry key="S30" value="3.35802537578927E-8" />
-      <entry key="S60" value="1.940308515375247E-4" />
-      <entry key="M2" value="0.016859047980827054" />
-      <entry key="M5" value="0.28097794992679354" />
-      <entry key="M10" value="0.7424876610744738" />
-      <entry key="M15" value="1.030852748648384" />
-      <entry key="M30" value="1.4343049879315095" />
-      <entry key="H1" value="1.693236322159311" />
-      <entry key="H2" value="1.8401118739806122" />
-      <entry key="H4" value="1.9183582817312692" />
-      <entry key="D1" value="1.9861509703358116" />
-      <entry key="W1" value="1.998015554951332" />
+      <entry key="S2" value="4.080244686427784E-123" />
+      <entry key="S5" value="1.1073234143185094E-49" />
+      <entry key="S10" value="3.3276471058266185E-25" />
+      <entry key="S30" value="6.95527662137374E-9" />
+      <entry key="S60" value="8.830514467905677E-5" />
+      <entry key="M2" value="0.01137340894547774" />
+      <entry key="M5" value="0.24004644733033045" />
+      <entry key="M10" value="0.6862790832681567" />
+      <entry key="M15" value="0.978147421405951" />
+      <entry key="M30" value="1.3971574448997184" />
+      <entry key="H1" value="1.6711656346888597" />
+      <entry key="H2" value="1.8280799604891709" />
+      <entry key="H4" value="1.9120762247044933" />
+      <entry key="D1" value="1.985065478602784" />
+      <entry key="W1" value="1.9978595218162676" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.004186615088034172" />
-      <entry key="MS500" value="0.33566045458219107" />
-      <entry key="S2" value="1.0329557974568229" />
-      <entry key="S5" value="2.047020363080248" />
-      <entry key="S10" value="3.8478183937734003" />
-      <entry key="S30" value="9.724763367959333" />
-      <entry key="S60" value="16.961710782160967" />
-      <entry key="M2" value="31.61965187744372" />
-      <entry key="M5" value="90.07451436196314" />
-      <entry key="M10" value="191.1832157563911" />
-      <entry key="M15" value="268.40160041562103" />
-      <entry key="M30" value="408.8781661875481" />
-      <entry key="H1" value="529.9030873158752" />
-      <entry key="H2" value="613.5504879414755" />
-      <entry key="H4" value="663.4655685320031" />
-      <entry key="D1" value="710.0719709993541" />
-      <entry key="W1" value="718.5686743096047" />
+      <entry key="MS100" value="0.9659363289294302" />
+      <entry key="MS500" value="1.0008413487817118" />
+      <entry key="S2" value="1.4930674311165033" />
+      <entry key="S5" value="2.526636443010508" />
+      <entry key="S10" value="4.821098381489814" />
+      <entry key="S30" value="13.0064544549726" />
+      <entry key="S60" value="22.029803527731204" />
+      <entry key="M2" value="37.78205777167917" />
+      <entry key="M5" value="94.87925186372465" />
+      <entry key="M10" value="195.16379105639734" />
+      <entry key="M15" value="273.3124758044156" />
+      <entry key="M30" value="417.10425960624553" />
+      <entry key="H1" value="541.9036153029112" />
+      <entry key="H2" value="628.4924121179582" />
+      <entry key="H4" value="680.2697667046978" />
+      <entry key="D1" value="728.6800347781989" />
+      <entry key="W1" value="737.5120068311364" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -216,7 +215,7 @@
       <workItem from="1794770467362" duration="2101000" />
       <workItem from="1794772612514" duration="5000" />
       <workItem from="1795101078235" duration="1321000" />
-      <workItem from="1795103206963" duration="1382000" />
+      <workItem from="1795103206963" duration="1719000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -298,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795104141771</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="am adaugat si functia save_answers care scrie raspunsurile participantului.">
+      <option name="closed" value="true" />
+      <created>1795104686567</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1795104686567</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -315,7 +322,8 @@
     <MESSAGE value="mici schimbari" />
     <MESSAGE value="am inceput sa fac app ca sa fie mai usor sa le arat participantilor la test imaginile." />
     <MESSAGE value="am avansat cu pagina de ajutor si am si testat-o pentru 3 poze si merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="am avansat cu pagina de ajutor si am si testat-o pentru 3 poze si merge" />
+    <MESSAGE value="am adaugat si functia save_answers care scrie raspunsurile participantului." />
+    <option name="LAST_COMMIT_MESSAGE" value="am adaugat si functia save_answers care scrie raspunsurile participantului." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$compression_report.coverage" NAME="compression_report Coverage Results" MODIFIED="1794160231874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

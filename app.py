@@ -82,10 +82,26 @@ if submitted:
     if answer is None:
         st.warning("Alege un răspuns înainte să continui.")
     else:
-        st.session_state.answers.append({
+        new_answer = {
             "image": image_path.name,
             "version": "original",
             "answer": answer,
-        })
+        }
+
+        updated_answers = st.session_state.answers + [new_answer]
+
+        try:
+            save_answers(
+                updated_answers,
+                st.session_state.participant_id,
+            )
+        except OSError:
+            st.error(
+                "Răspunsul nu a putut fi salvat. "
+                "Apasă din nou Următoarea pentru a reîncerca."
+            )
+            st.stop()
+
+        st.session_state.answers = updated_answers
         st.session_state.image_index += 1
         st.rerun()
