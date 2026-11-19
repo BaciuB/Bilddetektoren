@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="mici schimbari">
-      <change afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am avansat cu pagina de ajutor si am si testat-o pentru 3 poze si merge">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,61 +37,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0007674039995365" />
-      <entry key="MS500" value="1.4161721898116837" />
-      <entry key="S2" value="2.797670749989493" />
-      <entry key="S5" value="3.958724304464562" />
-      <entry key="S10" value="6.772183741502569" />
-      <entry key="S30" value="16.90694775406041" />
-      <entry key="S60" value="28.47292218892717" />
-      <entry key="M2" value="61.52007898215551" />
-      <entry key="M5" value="155.84952543346174" />
-      <entry key="M10" value="247.36463637572288" />
-      <entry key="M15" value="304.01683606304186" />
-      <entry key="M30" value="400.47237969835896" />
-      <entry key="H1" value="480.74778393130265" />
-      <entry key="H2" value="535.0900950036049" />
-      <entry key="H4" value="567.1023153533832" />
-      <entry key="D1" value="596.7230479521892" />
-      <entry key="W1" value="602.0957524509399" />
+      <entry key="MS100" value="1.000001506884216" />
+      <entry key="MS500" value="1.0686982201376973" />
+      <entry key="S2" value="1.6504845779498618" />
+      <entry key="S5" value="2.6111855007565596" />
+      <entry key="S10" value="4.374733088271551" />
+      <entry key="S30" value="10.135661179658426" />
+      <entry key="S60" value="17.305856875793655" />
+      <entry key="M2" value="31.891124588607184" />
+      <entry key="M5" value="89.9856572580279" />
+      <entry key="M10" value="190.5656317925267" />
+      <entry key="M15" value="267.46393491296436" />
+      <entry key="M30" value="407.49707553860424" />
+      <entry key="H1" value="528.2385892195389" />
+      <entry key="H2" value="611.725362768919" />
+      <entry key="H4" value="661.5548710975933" />
+      <entry key="D1" value="708.0871213651459" />
+      <entry key="W1" value="716.5708452781945" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.7401530903912645E-150" />
-      <entry key="MS500" value="1.1171654381416865E-30" />
-      <entry key="S2" value="3.251092849210432E-8" />
-      <entry key="S5" value="0.0010111410663890452" />
-      <entry key="S10" value="0.03179844600689677" />
-      <entry key="S30" value="0.31798303599181604" />
-      <entry key="S60" value="0.5970776001550381" />
-      <entry key="M2" value="0.9352183964207598" />
-      <entry key="M5" value="1.4005681220297994" />
-      <entry key="M10" value="1.6576973365320649" />
-      <entry key="M15" value="1.7609240808268392" />
-      <entry key="M30" value="1.8746211318682224" />
-      <entry key="H1" value="1.9357692017175507" />
-      <entry key="H2" value="1.9674886137370047" />
-      <entry key="H4" value="1.9836439464905509" />
-      <entry key="D1" value="1.9972599348427487" />
-      <entry key="W1" value="1.9996082163458027" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="7.365965919558646E-113" />
+      <entry key="S5" value="1.4024645165006706E-45" />
+      <entry key="S10" value="3.7449494763818986E-23" />
+      <entry key="S30" value="3.35802537578927E-8" />
+      <entry key="S60" value="1.940308515375247E-4" />
+      <entry key="M2" value="0.016859047980827054" />
+      <entry key="M5" value="0.28097794992679354" />
+      <entry key="M10" value="0.7424876610744738" />
+      <entry key="M15" value="1.030852748648384" />
+      <entry key="M30" value="1.4343049879315095" />
+      <entry key="H1" value="1.693236322159311" />
+      <entry key="H2" value="1.8401118739806122" />
+      <entry key="H4" value="1.9183582817312692" />
+      <entry key="D1" value="1.9861509703358116" />
+      <entry key="W1" value="1.998015554951332" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6205574240020559" />
-      <entry key="MS500" value="1.3098354783105448" />
-      <entry key="S2" value="2.7539138978895172" />
-      <entry key="S5" value="3.9380362539174185" />
-      <entry key="S10" value="6.786996162756377" />
-      <entry key="S30" value="17.204452141749904" />
-      <entry key="S60" value="29.05005655823052" />
-      <entry key="M2" value="62.42668877420302" />
-      <entry key="M5" value="157.21339510464364" />
-      <entry key="M10" value="248.99323298008065" />
-      <entry key="M15" value="305.75489855690455" />
-      <entry key="M30" value="402.33336406277436" />
-      <entry key="H1" value="482.67603798526534" />
-      <entry key="H2" value="537.0536237485342" />
-      <entry key="H4" value="569.0839242313269" />
-      <entry key="D1" value="598.7199605985909" />
-      <entry key="W1" value="604.0953108496075" />
+      <entry key="MS100" value="0.004186615088034172" />
+      <entry key="MS500" value="0.33566045458219107" />
+      <entry key="S2" value="1.0329557974568229" />
+      <entry key="S5" value="2.047020363080248" />
+      <entry key="S10" value="3.8478183937734003" />
+      <entry key="S30" value="9.724763367959333" />
+      <entry key="S60" value="16.961710782160967" />
+      <entry key="M2" value="31.61965187744372" />
+      <entry key="M5" value="90.07451436196314" />
+      <entry key="M10" value="191.1832157563911" />
+      <entry key="M15" value="268.40160041562103" />
+      <entry key="M30" value="408.8781661875481" />
+      <entry key="H1" value="529.9030873158752" />
+      <entry key="H2" value="613.5504879414755" />
+      <entry key="H4" value="663.4655685320031" />
+      <entry key="D1" value="710.0719709993541" />
+      <entry key="W1" value="718.5686743096047" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -216,7 +216,7 @@
       <workItem from="1794770467362" duration="2101000" />
       <workItem from="1794772612514" duration="5000" />
       <workItem from="1795101078235" duration="1321000" />
-      <workItem from="1795103206963" duration="659000" />
+      <workItem from="1795103206963" duration="1382000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -282,7 +282,23 @@
       <option name="project" value="LOCAL" />
       <updated>1794772030444</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="am inceput sa fac app ca sa fie mai usor sa le arat participantilor la test imaginile.">
+      <option name="closed" value="true" />
+      <created>1795103927110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1795103927110</updated>
+    </task>
+    <task id="LOCAL-00010" summary="am avansat cu pagina de ajutor si am si testat-o pentru 3 poze si merge">
+      <option name="closed" value="true" />
+      <created>1795104141771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1795104141771</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -297,7 +313,9 @@
     <MESSAGE value="am facut summarize_compression.py unde fac de fapt un tabel cu informatii despre pozele pe care le-am incarcat, si originalele si si comprimatele. noteaza numele, nivelul de compresie, latimea si inaltimea si marimea fisierului in KB." />
     <MESSAGE value="am facut si compression_report.py care citeste imaginile originale si comprimatele, le masoara si le salveaza intr-un tabel." />
     <MESSAGE value="mici schimbari" />
-    <option name="LAST_COMMIT_MESSAGE" value="mici schimbari" />
+    <MESSAGE value="am inceput sa fac app ca sa fie mai usor sa le arat participantilor la test imaginile." />
+    <MESSAGE value="am avansat cu pagina de ajutor si am si testat-o pentru 3 poze si merge" />
+    <option name="LAST_COMMIT_MESSAGE" value="am avansat cu pagina de ajutor si am si testat-o pentru 3 poze si merge" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$compression_report.coverage" NAME="compression_report Coverage Results" MODIFIED="1794160231874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
