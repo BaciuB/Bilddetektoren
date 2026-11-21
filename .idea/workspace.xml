@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am adaugat si functia save_answers care scrie raspunsurile participantului.">
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/prepare_labels.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/participants/0acd4a5eff6744cea6c36c25cb2a1e01.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/participants/7cf8cce77236415d91c18fd4625c8318.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/participants/90519ab4587046e8a3254cedfe97cdd5.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,61 +40,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000000046814" />
-      <entry key="MS500" value="1.00778444600146" />
-      <entry key="S2" value="1.4953908695301965" />
-      <entry key="S5" value="2.528130612950646" />
-      <entry key="S10" value="4.827115753420692" />
-      <entry key="S30" value="13.09258386661649" />
-      <entry key="S60" value="22.18709501408232" />
-      <entry key="M2" value="37.96558239372597" />
-      <entry key="M5" value="94.803506757519" />
-      <entry key="M10" value="194.5930464431432" />
-      <entry key="M15" value="272.42280930594933" />
-      <entry key="M30" value="415.7589676444344" />
-      <entry key="H1" value="540.260828054879" />
-      <entry key="H2" value="626.6792282600977" />
-      <entry key="H4" value="678.365329942138" />
-      <entry key="D1" value="726.6962705421118" />
-      <entry key="W1" value="735.5143339065403" />
+      <entry key="MS100" value="1.0005737817136091" />
+      <entry key="MS500" value="1.4107330601307349" />
+      <entry key="S2" value="4.4460911527529445" />
+      <entry key="S5" value="10.366098082055528" />
+      <entry key="S10" value="19.090136351955643" />
+      <entry key="S30" value="41.19640438318079" />
+      <entry key="S60" value="54.57142303741035" />
+      <entry key="M2" value="65.4870336675746" />
+      <entry key="M5" value="78.71178689328377" />
+      <entry key="M10" value="90.26746425052939" />
+      <entry key="M15" value="109.28696581235879" />
+      <entry key="M30" value="206.03946907419115" />
+      <entry key="H1" value="382.05865801119387" />
+      <entry key="H2" value="562.6120406993876" />
+      <entry key="H4" value="694.7226183768802" />
+      <entry key="D1" value="834.9845282533489" />
+      <entry key="W1" value="862.3377445430259" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
-      <entry key="S2" value="4.080244686427784E-123" />
-      <entry key="S5" value="1.1073234143185094E-49" />
-      <entry key="S10" value="3.3276471058266185E-25" />
-      <entry key="S30" value="6.95527662137374E-9" />
-      <entry key="S60" value="8.830514467905677E-5" />
-      <entry key="M2" value="0.01137340894547774" />
-      <entry key="M5" value="0.24004644733033045" />
-      <entry key="M10" value="0.6862790832681567" />
-      <entry key="M15" value="0.978147421405951" />
-      <entry key="M30" value="1.3971574448997184" />
-      <entry key="H1" value="1.6711656346888597" />
-      <entry key="H2" value="1.8280799604891709" />
-      <entry key="H4" value="1.9120762247044933" />
-      <entry key="D1" value="1.985065478602784" />
-      <entry key="W1" value="1.9978595218162676" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.49402194040231E-267" />
+      <entry key="S10" value="3.865258194750678E-134" />
+      <entry key="S30" value="3.393606548552918E-45" />
+      <entry key="S60" value="6.168215629288259E-23" />
+      <entry key="M2" value="9.505553828880788E-12" />
+      <entry key="M5" value="5.612159314703593E-5" />
+      <entry key="M10" value="0.010493445628238096" />
+      <entry key="M15" value="0.060258162434096804" />
+      <entry key="M30" value="0.3467776777686171" />
+      <entry key="H1" value="0.8325731264020274" />
+      <entry key="H2" value="1.290317638563936" />
+      <entry key="H4" value="1.6064082448405355" />
+      <entry key="D1" value="1.9282645806699499" />
+      <entry key="W1" value="1.989590848156022" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9659363289294302" />
-      <entry key="MS500" value="1.0008413487817118" />
-      <entry key="S2" value="1.4930674311165033" />
-      <entry key="S5" value="2.526636443010508" />
-      <entry key="S10" value="4.821098381489814" />
-      <entry key="S30" value="13.0064544549726" />
-      <entry key="S60" value="22.029803527731204" />
-      <entry key="M2" value="37.78205777167917" />
-      <entry key="M5" value="94.87925186372465" />
-      <entry key="M10" value="195.16379105639734" />
-      <entry key="M15" value="273.3124758044156" />
-      <entry key="M30" value="417.10425960624553" />
-      <entry key="H1" value="541.9036153029112" />
-      <entry key="H2" value="628.4924121179582" />
-      <entry key="H4" value="680.2697667046978" />
-      <entry key="D1" value="728.6800347781989" />
-      <entry key="W1" value="737.5120068311364" />
+      <entry key="MS100" value="0.9732130354897794" />
+      <entry key="MS500" value="1.402811627715203" />
+      <entry key="S2" value="4.439498139518672" />
+      <entry key="S5" value="10.359837242142149" />
+      <entry key="S10" value="19.08427655643137" />
+      <entry key="S30" value="41.192071597437454" />
+      <entry key="S60" value="54.56852642485736" />
+      <entry key="M2" value="65.4852882956833" />
+      <entry key="M5" value="78.71096472564267" />
+      <entry key="M10" value="90.27572185934702" />
+      <entry key="M15" value="109.3414357644875" />
+      <entry key="M30" value="206.37317604306864" />
+      <entry key="H1" value="382.8769789648127" />
+      <entry key="H2" value="563.891781360492" />
+      <entry key="H4" value="696.3225752105787" />
+      <entry key="D1" value="836.9115230061477" />
+      <entry key="W1" value="864.327148727434" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -108,6 +112,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.compression_report.executor&quot;: &quot;Run&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.prepare_labels.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
@@ -131,7 +136,7 @@
       <recent name="C:\Users\bogda\Desktop\Facultate_3\Proiect de cercetare\KI_Bilddetektion\data\originals" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.compression_report">
+  <component name="RunManager" selected="Python.prepare_labels">
     <configuration name="compression_report" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="KI_Bilddetektion" />
       <option name="ENV_FILES" value="" />
@@ -182,8 +187,34 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="prepare_labels" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="KI_Bilddetektion" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="RUN_AS_SCRIPT" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/prepare_labels.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.prepare_labels" />
         <item itemvalue="Python.compression_report" />
         <item itemvalue="Python.main" />
       </list>
@@ -215,7 +246,7 @@
       <workItem from="1794770467362" duration="2101000" />
       <workItem from="1794772612514" duration="5000" />
       <workItem from="1795101078235" duration="1321000" />
-      <workItem from="1795103206963" duration="1719000" />
+      <workItem from="1795103206963" duration="3494000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -305,7 +336,23 @@
       <option name="project" value="LOCAL" />
       <updated>1795104686567</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="am modificat si if submitted ca acum sa fie salvate raspunsurile si am si testat ca merge&#10;totul e ok">
+      <option name="closed" value="true" />
+      <created>1795105057897</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1795105057897</updated>
+    </task>
+    <task id="LOCAL-00013" summary="am modificat ca .csv sa arate numele imaginii originale si versiunea vazuta ; am testat si am ajustat putin codul pentru ca vreau ca fiecare participant sa vada o poza doar o data indiferent cu ce compresie este adica sa nu se repete poze pentru ca asa cred ca o sa isi dea seama mai usor care e AI si care nu.">
+      <option name="closed" value="true" />
+      <created>1795108280070</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1795108280070</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -323,10 +370,13 @@
     <MESSAGE value="am inceput sa fac app ca sa fie mai usor sa le arat participantilor la test imaginile." />
     <MESSAGE value="am avansat cu pagina de ajutor si am si testat-o pentru 3 poze si merge" />
     <MESSAGE value="am adaugat si functia save_answers care scrie raspunsurile participantului." />
-    <option name="LAST_COMMIT_MESSAGE" value="am adaugat si functia save_answers care scrie raspunsurile participantului." />
+    <MESSAGE value="am modificat si if submitted ca acum sa fie salvate raspunsurile si am si testat ca merge&#10;totul e ok" />
+    <MESSAGE value="am modificat ca .csv sa arate numele imaginii originale si versiunea vazuta ; am testat si am ajustat putin codul pentru ca vreau ca fiecare participant sa vada o poza doar o data indiferent cu ce compresie este adica sa nu se repete poze pentru ca asa cred ca o sa isi dea seama mai usor care e AI si care nu." />
+    <option name="LAST_COMMIT_MESSAGE" value="am modificat ca .csv sa arate numele imaginii originale si versiunea vazuta ; am testat si am ajustat putin codul pentru ca vreau ca fiecare participant sa vada o poza doar o data indiferent cu ce compresie este adica sa nu se repete poze pentru ca asa cred ca o sa isi dea seama mai usor care e AI si care nu." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/KI_Bilddetektion$compression_report.coverage" NAME="compression_report Coverage Results" MODIFIED="1794160231874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794085623141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/KI_Bilddetektion$prepare_labels.coverage" NAME="prepare_labels Coverage Results" MODIFIED="1795108404258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/KI_Bilddetektion$compression_report.coverage" NAME="compression_report Coverage Results" MODIFIED="1794160231874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
