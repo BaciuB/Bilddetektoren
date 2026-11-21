@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am mai avansat">
-      <change afterPath="$PROJECT_DIR$/run_detector.py" afterDir="false" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/analyze_results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assignment.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/plot_results.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/accuracy_comparison.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/accuracy_summary.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/results/assignments.sqlite" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_project.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseLocalColorSettings">
+    <colors>
+      <entry key="36c4ef21-8aec-4484-bd36-f6f0bbb72687" value="" />
+    </colors>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -37,61 +49,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0180168952084152" />
-      <entry key="MS500" value="2.1616571416781465" />
-      <entry key="S2" value="5.942253735944315" />
-      <entry key="S5" value="12.153080722865461" />
-      <entry key="S10" value="21.09774536106691" />
-      <entry key="S30" value="43.782834810194664" />
-      <entry key="S60" value="57.636791001315345" />
-      <entry key="M2" value="68.926806406818" />
-      <entry key="M5" value="82.44293782434758" />
-      <entry key="M10" value="94.1136007233355" />
-      <entry key="M15" value="113.16314843101331" />
-      <entry key="M30" value="209.92357197948482" />
-      <entry key="H1" value="385.9516003570363" />
-      <entry key="H2" value="566.533323450913" />
-      <entry key="H4" value="698.6740442630785" />
-      <entry key="D1" value="838.97480184572" />
-      <entry key="W1" value="866.3363096248104" />
+      <entry key="MS100" value="2.760759535692725E-13" />
+      <entry key="MS500" value="0.0030823986279514665" />
+      <entry key="S2" value="0.38844387092891025" />
+      <entry key="S5" value="2.6477456712559837" />
+      <entry key="S10" value="7.205359687518599" />
+      <entry key="S30" value="17.274177275309984" />
+      <entry key="S60" value="22.222307423468703" />
+      <entry key="M2" value="25.398310734690916" />
+      <entry key="M5" value="32.3232857494047" />
+      <entry key="M10" value="51.06699244014043" />
+      <entry key="M15" value="72.5147832904263" />
+      <entry key="M30" value="159.6917933472462" />
+      <entry key="H1" value="333.7017359497542" />
+      <entry key="H2" value="532.4234984563722" />
+      <entry key="H4" value="687.6206027720242" />
+      <entry key="D1" value="859.7616708422546" />
+      <entry key="W1" value="894.1196584840352" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.2221330324556761E-267" />
-      <entry key="S10" value="3.495902109352684E-134" />
-      <entry key="S30" value="3.281872769220715E-45" />
-      <entry key="S60" value="6.065822155529902E-23" />
-      <entry key="M2" value="9.426326716912734E-12" />
-      <entry key="M5" value="5.5934017782899634E-5" />
-      <entry key="M10" value="0.010475894813995449" />
-      <entry key="M15" value="0.060190953823976996" />
-      <entry key="M30" value="0.3465842355268744" />
-      <entry key="H1" value="0.8323408777758999" />
-      <entry key="H2" value="1.2901376571358798" />
-      <entry key="H4" value="1.606296205089936" />
-      <entry key="D1" value="1.9282421653881148" />
-      <entry key="W1" value="1.9895875441146402" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0" />
+      <entry key="S30" value="1.0" />
+      <entry key="S60" value="1.0" />
+      <entry key="M2" value="1.000000000000008" />
+      <entry key="M5" value="1.000003296360569" />
+      <entry key="M10" value="1.0025431412151504" />
+      <entry key="M15" value="1.0234234461336649" />
+      <entry key="M30" value="1.216206420763792" />
+      <entry key="H1" value="1.6574021428193622" />
+      <entry key="H2" value="2.1465711170942825" />
+      <entry key="H4" value="2.5142866936433146" />
+      <entry key="D1" value="2.9093783223185357" />
+      <entry key="W1" value="2.9867952463875076" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6614858339159574" />
-      <entry key="MS500" value="1.9147373524692266" />
-      <entry key="S2" value="5.791772180420459" />
-      <entry key="S5" value="12.076205264088907" />
-      <entry key="S10" value="21.053995131713833" />
-      <entry key="S30" value="43.76521594652021" />
-      <entry key="S60" value="57.62714897709271" />
-      <entry key="M2" value="68.92165884918776" />
-      <entry key="M5" value="82.4407468887764" />
-      <entry key="M10" value="94.1211579569945" />
-      <entry key="M15" value="113.21709974185268" />
-      <entry key="M30" value="210.25686376338857" />
-      <entry key="H1" value="386.76957849831825" />
-      <entry key="H2" value="567.8128283306265" />
-      <entry key="H4" value="700.2738608679291" />
-      <entry key="D1" value="840.9017694246278" />
-      <entry key="W1" value="868.3257098235723" />
+      <entry key="MS100" value="1.7688609041105478E-11" />
+      <entry key="MS500" value="0.010103411444377628" />
+      <entry key="S2" value="0.6772112038906133" />
+      <entry key="S5" value="3.2532621651242084" />
+      <entry key="S10" value="7.976949297243874" />
+      <entry key="S30" value="18.183251479196468" />
+      <entry key="S60" value="23.173440131052864" />
+      <entry key="M2" value="26.372801211905973" />
+      <entry key="M5" value="33.31266184045023" />
+      <entry key="M10" value="52.06352753165398" />
+      <entry key="M15" value="73.53223371483318" />
+      <entry key="M30" value="160.89792924824596" />
+      <entry key="H1" value="335.34690335365883" />
+      <entry key="H2" value="534.56017427454" />
+      <entry key="H4" value="690.1285580568904" />
+      <entry key="D1" value="862.6697498734798" />
+      <entry key="W1" value="897.1062613371357" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -131,6 +143,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\bogda\Desktop\Facultate_3\Proiect de cercetare\KI_Bilddetektion\data\originals" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Baciu\Desktop\Facultate_3\Proiect de cercetare\KI_Bilddetektion" />
     </key>
   </component>
   <component name="RunManager" selected="Python.prepare_labels">
@@ -244,7 +259,7 @@
       <workItem from="1794772612514" duration="5000" />
       <workItem from="1795101078235" duration="1321000" />
       <workItem from="1795103206963" duration="3494000" />
-      <workItem from="1795299606595" duration="1162000" />
+      <workItem from="1795299606595" duration="3210000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -358,7 +373,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795299847447</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="am incarcat si detectorul care verifica originalele si si pozele cu compresiile diferite si le incarca in detector_results.csv">
+      <option name="closed" value="true" />
+      <created>1795301063388</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1795301063388</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -379,7 +402,8 @@
     <MESSAGE value="am modificat si if submitted ca acum sa fie salvate raspunsurile si am si testat ca merge&#10;totul e ok" />
     <MESSAGE value="am modificat ca .csv sa arate numele imaginii originale si versiunea vazuta ; am testat si am ajustat putin codul pentru ca vreau ca fiecare participant sa vada o poza doar o data indiferent cu ce compresie este adica sa nu se repete poze pentru ca asa cred ca o sa isi dea seama mai usor care e AI si care nu." />
     <MESSAGE value="am mai avansat" />
-    <option name="LAST_COMMIT_MESSAGE" value="am mai avansat" />
+    <MESSAGE value="am incarcat si detectorul care verifica originalele si si pozele cu compresiile diferite si le incarca in detector_results.csv" />
+    <option name="LAST_COMMIT_MESSAGE" value="am incarcat si detectorul care verifica originalele si si pozele cu compresiile diferite si le incarca in detector_results.csv" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794085623141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

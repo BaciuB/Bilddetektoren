@@ -4,6 +4,7 @@ import uuid
 import random
 from main import OUTPUT_FOLDER, QUALITIES
 import streamlit as st
+from assignment import assign_trials
 
 PROJECT_FOLDER = Path(__file__).resolve().parent
 IMAGE_FOLDER = PROJECT_FOLDER / "data" / "originals"
@@ -54,7 +55,7 @@ if not images:
     st.stop()
 
 if "trials" not in st.session_state:
-    trials = []
+    version_groups = []
 
     for original_path in images:
         versions = [{
@@ -83,11 +84,12 @@ if "trials" not in st.session_state:
                 "version": f"Q{quality}",
             })
 
-        selected_version = random.choice(versions)
-        trials.append(selected_version)
+        version_groups.append(versions)
 
-    random.shuffle(trials)
-    st.session_state.trials = trials
+    st.session_state.trials = assign_trials(
+        version_groups,
+        st.session_state.participant_id,
+    )
 
 trials = st.session_state.trials
 
