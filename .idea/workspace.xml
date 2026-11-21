@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/prepare_labels.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/participants/0acd4a5eff6744cea6c36c25cb2a1e01.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/participants/7cf8cce77236415d91c18fd4625c8318.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/participants/90519ab4587046e8a3254cedfe97cdd5.csv" afterDir="false" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am mai avansat">
+      <change afterPath="$PROJECT_DIR$/run_detector.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,61 +37,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0005737817136091" />
-      <entry key="MS500" value="1.4107330601307349" />
-      <entry key="S2" value="4.4460911527529445" />
-      <entry key="S5" value="10.366098082055528" />
-      <entry key="S10" value="19.090136351955643" />
-      <entry key="S30" value="41.19640438318079" />
-      <entry key="S60" value="54.57142303741035" />
-      <entry key="M2" value="65.4870336675746" />
-      <entry key="M5" value="78.71178689328377" />
-      <entry key="M10" value="90.26746425052939" />
-      <entry key="M15" value="109.28696581235879" />
-      <entry key="M30" value="206.03946907419115" />
-      <entry key="H1" value="382.05865801119387" />
-      <entry key="H2" value="562.6120406993876" />
-      <entry key="H4" value="694.7226183768802" />
-      <entry key="D1" value="834.9845282533489" />
-      <entry key="W1" value="862.3377445430259" />
+      <entry key="MS100" value="1.0180168952084152" />
+      <entry key="MS500" value="2.1616571416781465" />
+      <entry key="S2" value="5.942253735944315" />
+      <entry key="S5" value="12.153080722865461" />
+      <entry key="S10" value="21.09774536106691" />
+      <entry key="S30" value="43.782834810194664" />
+      <entry key="S60" value="57.636791001315345" />
+      <entry key="M2" value="68.926806406818" />
+      <entry key="M5" value="82.44293782434758" />
+      <entry key="M10" value="94.1136007233355" />
+      <entry key="M15" value="113.16314843101331" />
+      <entry key="M30" value="209.92357197948482" />
+      <entry key="H1" value="385.9516003570363" />
+      <entry key="H2" value="566.533323450913" />
+      <entry key="H4" value="698.6740442630785" />
+      <entry key="D1" value="838.97480184572" />
+      <entry key="W1" value="866.3363096248104" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.49402194040231E-267" />
-      <entry key="S10" value="3.865258194750678E-134" />
-      <entry key="S30" value="3.393606548552918E-45" />
-      <entry key="S60" value="6.168215629288259E-23" />
-      <entry key="M2" value="9.505553828880788E-12" />
-      <entry key="M5" value="5.612159314703593E-5" />
-      <entry key="M10" value="0.010493445628238096" />
-      <entry key="M15" value="0.060258162434096804" />
-      <entry key="M30" value="0.3467776777686171" />
-      <entry key="H1" value="0.8325731264020274" />
-      <entry key="H2" value="1.290317638563936" />
-      <entry key="H4" value="1.6064082448405355" />
-      <entry key="D1" value="1.9282645806699499" />
-      <entry key="W1" value="1.989590848156022" />
+      <entry key="S5" value="1.2221330324556761E-267" />
+      <entry key="S10" value="3.495902109352684E-134" />
+      <entry key="S30" value="3.281872769220715E-45" />
+      <entry key="S60" value="6.065822155529902E-23" />
+      <entry key="M2" value="9.426326716912734E-12" />
+      <entry key="M5" value="5.5934017782899634E-5" />
+      <entry key="M10" value="0.010475894813995449" />
+      <entry key="M15" value="0.060190953823976996" />
+      <entry key="M30" value="0.3465842355268744" />
+      <entry key="H1" value="0.8323408777758999" />
+      <entry key="H2" value="1.2901376571358798" />
+      <entry key="H4" value="1.606296205089936" />
+      <entry key="D1" value="1.9282421653881148" />
+      <entry key="W1" value="1.9895875441146402" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9732130354897794" />
-      <entry key="MS500" value="1.402811627715203" />
-      <entry key="S2" value="4.439498139518672" />
-      <entry key="S5" value="10.359837242142149" />
-      <entry key="S10" value="19.08427655643137" />
-      <entry key="S30" value="41.192071597437454" />
-      <entry key="S60" value="54.56852642485736" />
-      <entry key="M2" value="65.4852882956833" />
-      <entry key="M5" value="78.71096472564267" />
-      <entry key="M10" value="90.27572185934702" />
-      <entry key="M15" value="109.3414357644875" />
-      <entry key="M30" value="206.37317604306864" />
-      <entry key="H1" value="382.8769789648127" />
-      <entry key="H2" value="563.891781360492" />
-      <entry key="H4" value="696.3225752105787" />
-      <entry key="D1" value="836.9115230061477" />
-      <entry key="W1" value="864.327148727434" />
+      <entry key="MS100" value="0.6614858339159574" />
+      <entry key="MS500" value="1.9147373524692266" />
+      <entry key="S2" value="5.791772180420459" />
+      <entry key="S5" value="12.076205264088907" />
+      <entry key="S10" value="21.053995131713833" />
+      <entry key="S30" value="43.76521594652021" />
+      <entry key="S60" value="57.62714897709271" />
+      <entry key="M2" value="68.92165884918776" />
+      <entry key="M5" value="82.4407468887764" />
+      <entry key="M10" value="94.1211579569945" />
+      <entry key="M15" value="113.21709974185268" />
+      <entry key="M30" value="210.25686376338857" />
+      <entry key="H1" value="386.76957849831825" />
+      <entry key="H2" value="567.8128283306265" />
+      <entry key="H4" value="700.2738608679291" />
+      <entry key="D1" value="840.9017694246278" />
+      <entry key="W1" value="868.3257098235723" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -247,6 +244,7 @@
       <workItem from="1794772612514" duration="5000" />
       <workItem from="1795101078235" duration="1321000" />
       <workItem from="1795103206963" duration="3494000" />
+      <workItem from="1795299606595" duration="1162000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -352,7 +350,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795108280070</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="am mai avansat">
+      <option name="closed" value="true" />
+      <created>1795299847447</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1795299847447</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -372,7 +378,8 @@
     <MESSAGE value="am adaugat si functia save_answers care scrie raspunsurile participantului." />
     <MESSAGE value="am modificat si if submitted ca acum sa fie salvate raspunsurile si am si testat ca merge&#10;totul e ok" />
     <MESSAGE value="am modificat ca .csv sa arate numele imaginii originale si versiunea vazuta ; am testat si am ajustat putin codul pentru ca vreau ca fiecare participant sa vada o poza doar o data indiferent cu ce compresie este adica sa nu se repete poze pentru ca asa cred ca o sa isi dea seama mai usor care e AI si care nu." />
-    <option name="LAST_COMMIT_MESSAGE" value="am modificat ca .csv sa arate numele imaginii originale si versiunea vazuta ; am testat si am ajustat putin codul pentru ca vreau ca fiecare participant sa vada o poza doar o data indiferent cu ce compresie este adica sa nu se repete poze pentru ca asa cred ca o sa isi dea seama mai usor care e AI si care nu." />
+    <MESSAGE value="am mai avansat" />
+    <option name="LAST_COMMIT_MESSAGE" value="am mai avansat" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794085623141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
