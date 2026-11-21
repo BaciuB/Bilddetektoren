@@ -10,7 +10,9 @@ PROJECT_FOLDER = Path(__file__).resolve().parent
 IMAGE_FOLDER = PROJECT_FOLDER / "data" / "originals"
 IMAGE_FORMATS = {".jpg", ".jpeg", ".png", ".webp"}
 
-RESULTS_FOLDER = PROJECT_FOLDER / "results" / "participants"
+from settings import RESULTS_FOLDER as EXPERIMENT_RESULTS_FOLDER
+
+RESULTS_FOLDER = EXPERIMENT_RESULTS_FOLDER / "participants"
 
 def save_answers(answers, participant_id):
     RESULTS_FOLDER.mkdir(parents=True, exist_ok=True)

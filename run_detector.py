@@ -7,7 +7,7 @@ from transformers import pipeline
 from main import INPUT_FOLDER, OUTPUT_FOLDER, QUALITIES, IMAGE_FORMATS
 
 PROJECT_FOLDER = Path(__file__).resolve().parent
-RESULTS_FOLDER = PROJECT_FOLDER / "results"
+from settings import RESULTS_FOLDER
 RESULTS_FILE = RESULTS_FOLDER / "detector_results.csv"
 
 MODEL_NAME = "Ateeqq/ai-vs-human-image-detector"

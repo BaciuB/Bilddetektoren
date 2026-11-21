@@ -3,7 +3,7 @@ from collections import defaultdict
 from pathlib import Path
 
 PROJECT_FOLDER = Path(__file__).resolve().parent
-RESULTS_FOLDER = PROJECT_FOLDER / "results"
+from settings import RESULTS_FOLDER
 
 LABELS_FILE = PROJECT_FOLDER / "data" / "image_labels.csv"
 DETECTOR_FILE = RESULTS_FOLDER / "detector_results.csv"
@@ -116,7 +116,7 @@ def main():
             f"{values['correct']}/{values['total']} corecte | "
             f"{accuracy:.2f}%"
         )
-
+    RESULTS_FOLDER.mkdir(parents=True, exist_ok=True)
     temporary_file = SUMMARY_FILE.with_suffix(".tmp")
 
     with temporary_file.open(

@@ -5,8 +5,9 @@ import sqlite3
 from pathlib import Path
 
 PROJECT_FOLDER = Path(__file__).resolve().parent
-DATABASE_FILE = PROJECT_FOLDER / "results" / "assignments.sqlite"
+from settings import RESULTS_FOLDER
 
+DATABASE_FILE = RESULTS_FOLDER / "assignments.sqlite"
 
 def assign_trials(version_groups, participant_id):
     DATABASE_FILE.parent.mkdir(parents=True, exist_ok=True)

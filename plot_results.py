@@ -4,7 +4,7 @@ from pathlib import Path
 import matplotlib.pyplot as plt
 
 PROJECT_FOLDER = Path(__file__).resolve().parent
-RESULTS_FOLDER = PROJECT_FOLDER / "results"
+from settings import RESULTS_FOLDER
 SUMMARY_FILE = RESULTS_FOLDER / "accuracy_summary.csv"
 CHART_FILE = RESULTS_FOLDER / "accuracy_comparison.png"
 

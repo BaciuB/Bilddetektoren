@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/analyze_results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assignment.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/plot_results.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/accuracy_comparison.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/accuracy_summary.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/results/assignments.sqlite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/run_project.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_results.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plot_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/accuracy_comparison.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/accuracy_summary.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/assignments.sqlite" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/detector_results.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/participants/0acd4a5eff6744cea6c36c25cb2a1e01.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/participants/7cf8cce77236415d91c18fd4625c8318.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/participants/90519ab4587046e8a3254cedfe97cdd5.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_detector.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +29,7 @@
   </component>
   <component name="DatabaseLocalColorSettings">
     <colors>
+      <entry key="1c20b15c-12ff-446c-b383-ca77b78944a5" value="" />
       <entry key="36c4ef21-8aec-4484-bd36-f6f0bbb72687" value="" />
     </colors>
   </component>
@@ -49,61 +57,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="2.760759535692725E-13" />
-      <entry key="MS500" value="0.0030823986279514665" />
-      <entry key="S2" value="0.38844387092891025" />
-      <entry key="S5" value="2.6477456712559837" />
-      <entry key="S10" value="7.205359687518599" />
-      <entry key="S30" value="17.274177275309984" />
-      <entry key="S60" value="22.222307423468703" />
-      <entry key="M2" value="25.398310734690916" />
-      <entry key="M5" value="32.3232857494047" />
-      <entry key="M10" value="51.06699244014043" />
-      <entry key="M15" value="72.5147832904263" />
-      <entry key="M30" value="159.6917933472462" />
-      <entry key="H1" value="333.7017359497542" />
-      <entry key="H2" value="532.4234984563722" />
-      <entry key="H4" value="687.6206027720242" />
-      <entry key="D1" value="859.7616708422546" />
-      <entry key="W1" value="894.1196584840352" />
+      <entry key="MS100" value="1.8751852332282004" />
+      <entry key="MS500" value="4.687315465037987" />
+      <entry key="S2" value="11.264768914169746" />
+      <entry key="S5" value="15.13886429875671" />
+      <entry key="S10" value="16.907181878056875" />
+      <entry key="S30" value="18.262894937143148" />
+      <entry key="S60" value="18.851096251176532" />
+      <entry key="M2" value="23.887829820136364" />
+      <entry key="M5" value="54.34430508732318" />
+      <entry key="M10" value="90.10858073741345" />
+      <entry key="M15" value="114.61835637734082" />
+      <entry key="M30" value="185.47434300240604" />
+      <entry key="H1" value="342.3397150330138" />
+      <entry key="H2" value="561.5419725110817" />
+      <entry key="H4" value="756.998078353179" />
+      <entry key="D1" value="994.6145973144833" />
+      <entry key="W1" value="1044.4039940911555" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0" />
-      <entry key="S30" value="1.0" />
-      <entry key="S60" value="1.0" />
-      <entry key="M2" value="1.000000000000008" />
-      <entry key="M5" value="1.000003296360569" />
-      <entry key="M10" value="1.0025431412151504" />
-      <entry key="M15" value="1.0234234461336649" />
-      <entry key="M30" value="1.216206420763792" />
-      <entry key="H1" value="1.6574021428193622" />
-      <entry key="H2" value="2.1465711170942825" />
-      <entry key="H4" value="2.5142866936433146" />
-      <entry key="D1" value="2.9093783223185357" />
-      <entry key="W1" value="2.9867952463875076" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="5.736952829912722E-302" />
+      <entry key="S2" value="4.8940716112565726E-76" />
+      <entry key="S5" value="7.513947008952666E-31" />
+      <entry key="S10" value="8.668376497414743E-16" />
+      <entry key="S30" value="9.7295682812507E-6" />
+      <entry key="S60" value="0.0035291777126052245" />
+      <entry key="M2" value="0.0765766469999223" />
+      <entry key="M5" value="0.5306664663278984" />
+      <entry key="M10" value="1.074535228138136" />
+      <entry key="M15" value="1.4194878578572294" />
+      <entry key="M30" value="2.0504272531883805" />
+      <entry key="H1" value="2.7985393113271173" />
+      <entry key="H2" value="3.5672984247316752" />
+      <entry key="H4" value="4.166642666540742" />
+      <entry key="D1" value="4.8407353653002545" />
+      <entry key="W1" value="4.9766840921876545" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7688609041105478E-11" />
-      <entry key="MS500" value="0.010103411444377628" />
-      <entry key="S2" value="0.6772112038906133" />
-      <entry key="S5" value="3.2532621651242084" />
-      <entry key="S10" value="7.976949297243874" />
-      <entry key="S30" value="18.183251479196468" />
-      <entry key="S60" value="23.173440131052864" />
-      <entry key="M2" value="26.372801211905973" />
-      <entry key="M5" value="33.31266184045023" />
-      <entry key="M10" value="52.06352753165398" />
-      <entry key="M15" value="73.53223371483318" />
-      <entry key="M30" value="160.89792924824596" />
-      <entry key="H1" value="335.34690335365883" />
-      <entry key="H2" value="534.56017427454" />
-      <entry key="H4" value="690.1285580568904" />
-      <entry key="D1" value="862.6697498734798" />
-      <entry key="W1" value="897.1062613371357" />
+      <entry key="MS100" value="1.7966361411251277" />
+      <entry key="MS500" value="4.643272975367452" />
+      <entry key="S2" value="11.222546620027007" />
+      <entry key="S5" value="15.113046395651656" />
+      <entry key="S10" value="16.892145698712145" />
+      <entry key="S30" value="18.257339247314313" />
+      <entry key="S60" value="18.85162925843243" />
+      <entry key="M2" value="23.96126306428817" />
+      <entry key="M5" value="54.86942705924264" />
+      <entry key="M10" value="91.17767351249275" />
+      <entry key="M15" value="116.0327756574111" />
+      <entry key="M30" value="187.5183856965744" />
+      <entry key="H1" value="345.129318886216" />
+      <entry key="H2" value="565.1007646283707" />
+      <entry key="H4" value="761.1587259002689" />
+      <entry key="D1" value="999.4539917397001" />
+      <entry key="W1" value="1049.380476584342" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -259,7 +267,7 @@
       <workItem from="1794772612514" duration="5000" />
       <workItem from="1795101078235" duration="1321000" />
       <workItem from="1795103206963" duration="3494000" />
-      <workItem from="1795299606595" duration="3210000" />
+      <workItem from="1795299606595" duration="4647000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -381,7 +389,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795301063388</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="am facut si calculele care arata diferenta intre om si detector am facut plot si am bagat statisticile in accuracy_comparison.png&#10;am modificat si ceva in app.py plus ca am facut si run_project.py iar acolo am facut un mic UI prin care eu selectez ce vreau sa fac adica daca vreau sa mai adaug incercari sau sa actualizez statisticile etc.&#10;adica run_project.py ma ajuta ca eu sa nu mai rulez fiecare fisier .py in parte.">
+      <option name="closed" value="true" />
+      <created>1795303158008</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1795303158008</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -403,7 +419,8 @@
     <MESSAGE value="am modificat ca .csv sa arate numele imaginii originale si versiunea vazuta ; am testat si am ajustat putin codul pentru ca vreau ca fiecare participant sa vada o poza doar o data indiferent cu ce compresie este adica sa nu se repete poze pentru ca asa cred ca o sa isi dea seama mai usor care e AI si care nu." />
     <MESSAGE value="am mai avansat" />
     <MESSAGE value="am incarcat si detectorul care verifica originalele si si pozele cu compresiile diferite si le incarca in detector_results.csv" />
-    <option name="LAST_COMMIT_MESSAGE" value="am incarcat si detectorul care verifica originalele si si pozele cu compresiile diferite si le incarca in detector_results.csv" />
+    <MESSAGE value="am facut si calculele care arata diferenta intre om si detector am facut plot si am bagat statisticile in accuracy_comparison.png&#10;am modificat si ceva in app.py plus ca am facut si run_project.py iar acolo am facut un mic UI prin care eu selectez ce vreau sa fac adica daca vreau sa mai adaug incercari sau sa actualizez statisticile etc.&#10;adica run_project.py ma ajuta ca eu sa nu mai rulez fiecare fisier .py in parte." />
+    <option name="LAST_COMMIT_MESSAGE" value="am facut si calculele care arata diferenta intre om si detector am facut plot si am bagat statisticile in accuracy_comparison.png&#10;am modificat si ceva in app.py plus ca am facut si run_project.py iar acolo am facut un mic UI prin care eu selectez ce vreau sa fac adica daca vreau sa mai adaug incercari sau sa actualizez statisticile etc.&#10;adica run_project.py ma ajuta ca eu sa nu mai rulez fiecare fisier .py in parte." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794085623141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
