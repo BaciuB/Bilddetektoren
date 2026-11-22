@@ -1,4 +1,9 @@
 ﻿image,version,width_px,height_px,file_size_kb
+AI_1.jpg,original,1248,832,414.96
+AI_1.jpg,Q40,1248,832,88.24
+AI_1.jpg,Q20,1248,832,58.79
+AI_1.jpg,Q10,1248,832,39.47
+AI_1.jpg,Q1,1248,832,20.95
 poza0test.png,original,1895,1006,390.7
 poza0test.png,Q40,1895,1006,110.46
 poza0test.png,Q20,1895,1006,82.12

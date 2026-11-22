@@ -4,23 +4,19 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am inlocuit in prepare_labels.py cateva randuri si am scris altele noi ca sa nu mai puna poza reala la fiecare poza noua ci sa lase liber. &#10;Am adaugat si prima poza facuta cu AI care dupa mine pare destul de reala.&#10;am creat si fisierul validate_data.py care verifica ca datele mele sa fie complete pentru a nu face statistici pe date incomplete adica verifica in mare daca exista la imaginile inserate labelul respectiv plus daca exista mai multe compresii sau face si o verificare pentru daca lista csv contine imagini care au fost scoase din folder">
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_1/AI_1_q1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_10/AI_1_q10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_20/AI_1_q20.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/compressed/quality_40/AI_1_q40.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/originals/AI_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/validate_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/analyze_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_results.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assignment.py" beforeDir="false" afterPath="$PROJECT_DIR$/assignment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plot_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/plot_results.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/accuracy_comparison.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/accuracy_summary.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/assignments.sqlite" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/detector_results.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/participants/0acd4a5eff6744cea6c36c25cb2a1e01.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/participants/7cf8cce77236415d91c18fd4625c8318.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/participants/90519ab4587046e8a3254cedfe97cdd5.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_detector.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_detector.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/image_labels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/image_labels.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepare_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepare_labels.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/compression_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/compression_summary.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_project.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,61 +53,61 @@
 }</component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.8751852332282004" />
-      <entry key="MS500" value="4.687315465037987" />
-      <entry key="S2" value="11.264768914169746" />
-      <entry key="S5" value="15.13886429875671" />
-      <entry key="S10" value="16.907181878056875" />
-      <entry key="S30" value="18.262894937143148" />
-      <entry key="S60" value="18.851096251176532" />
-      <entry key="M2" value="23.887829820136364" />
-      <entry key="M5" value="54.34430508732318" />
-      <entry key="M10" value="90.10858073741345" />
-      <entry key="M15" value="114.61835637734082" />
-      <entry key="M30" value="185.47434300240604" />
-      <entry key="H1" value="342.3397150330138" />
-      <entry key="H2" value="561.5419725110817" />
-      <entry key="H4" value="756.998078353179" />
-      <entry key="D1" value="994.6145973144833" />
-      <entry key="W1" value="1044.4039940911555" />
+      <entry key="MS100" value="1.0319219992366995" />
+      <entry key="MS500" value="1.6491966658003065" />
+      <entry key="S2" value="4.112751628648827" />
+      <entry key="S5" value="8.423348088849853" />
+      <entry key="S10" value="13.741120937744821" />
+      <entry key="S30" value="31.4077643265585" />
+      <entry key="S60" value="49.3168141670647" />
+      <entry key="M2" value="66.11653952839042" />
+      <entry key="M5" value="84.60073683347933" />
+      <entry key="M10" value="114.28819720820033" />
+      <entry key="M15" value="146.53516247424133" />
+      <entry key="M30" value="235.84242425424748" />
+      <entry key="H1" value="404.22783838508366" />
+      <entry key="H2" value="645.8144842922504" />
+      <entry key="H4" value="873.6882208806826" />
+      <entry key="D1" value="1164.5033098919291" />
+      <entry key="W1" value="1227.1321231473337" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="5.736952829912722E-302" />
-      <entry key="S2" value="4.8940716112565726E-76" />
-      <entry key="S5" value="7.513947008952666E-31" />
-      <entry key="S10" value="8.668376497414743E-16" />
-      <entry key="S30" value="9.7295682812507E-6" />
-      <entry key="S60" value="0.0035291777126052245" />
-      <entry key="M2" value="0.0765766469999223" />
-      <entry key="M5" value="0.5306664663278984" />
-      <entry key="M10" value="1.074535228138136" />
-      <entry key="M15" value="1.4194878578572294" />
-      <entry key="M30" value="2.0504272531883805" />
-      <entry key="H1" value="2.7985393113271173" />
-      <entry key="H2" value="3.5672984247316752" />
-      <entry key="H4" value="4.166642666540742" />
-      <entry key="D1" value="4.8407353653002545" />
-      <entry key="W1" value="4.9766840921876545" />
+      <entry key="MS500" value="2.5582945119637665E-67" />
+      <entry key="S2" value="2.248990571817424E-17" />
+      <entry key="S5" value="2.1917703821270248E-7" />
+      <entry key="S10" value="4.681634738130488E-4" />
+      <entry key="S30" value="0.07764839960192566" />
+      <entry key="S60" value="0.2786546265030828" />
+      <entry key="M2" value="0.5279281332584823" />
+      <entry key="M5" value="0.8023115026779046" />
+      <entry key="M10" value="1.1578021889082943" />
+      <entry key="M15" value="1.5503645045733898" />
+      <entry key="M30" value="2.515556252316093" />
+      <entry key="H1" value="3.6917843021319063" />
+      <entry key="H2" value="4.848629690992872" />
+      <entry key="H4" value="5.743776436042064" />
+      <entry key="D1" value="6.758351936860458" />
+      <entry key="W1" value="6.964571207168419" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="1.7966361411251277" />
-      <entry key="MS500" value="4.643272975367452" />
-      <entry key="S2" value="11.222546620027007" />
-      <entry key="S5" value="15.113046395651656" />
-      <entry key="S10" value="16.892145698712145" />
-      <entry key="S30" value="18.257339247314313" />
-      <entry key="S60" value="18.85162925843243" />
-      <entry key="M2" value="23.96126306428817" />
-      <entry key="M5" value="54.86942705924264" />
-      <entry key="M10" value="91.17767351249275" />
-      <entry key="M15" value="116.0327756574111" />
-      <entry key="M30" value="187.5183856965744" />
-      <entry key="H1" value="345.129318886216" />
-      <entry key="H2" value="565.1007646283707" />
-      <entry key="H4" value="761.1587259002689" />
-      <entry key="D1" value="999.4539917397001" />
-      <entry key="W1" value="1049.380476584342" />
+      <entry key="MS100" value="0.9965581632998749" />
+      <entry key="MS500" value="1.6373359463884745" />
+      <entry key="S2" value="4.105212914568828" />
+      <entry key="S5" value="8.416676444650742" />
+      <entry key="S10" value="13.736068133553395" />
+      <entry key="S30" value="31.478052093250117" />
+      <entry key="S60" value="49.58618209888792" />
+      <entry key="M2" value="66.63644872571841" />
+      <entry key="M5" value="85.39777718428337" />
+      <entry key="M10" value="115.44094239047085" />
+      <entry key="M15" value="148.0803102929271" />
+      <entry key="M30" value="238.35189140101306" />
+      <entry key="H1" value="407.91149017201633" />
+      <entry key="H2" value="650.6549448885572" />
+      <entry key="H4" value="879.4259655940259" />
+      <entry key="D1" value="1171.260248128157" />
+      <entry key="W1" value="1234.0964799735648" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -123,33 +119,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.compression_report.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.prepare_labels.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Baciu/Desktop/Facultate_3/Proiect de cercetare/KI_Bilddetektion&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.jshint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.jshint&quot;: &quot;&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;python.packages.toolwindow.project.migrated.to.right.top.v2&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.interpreter.PyWorkspaceStructureConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.compression_report.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.prepare_labels.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Baciu/Desktop/Facultate_3/Proiect de cercetare/KI_Bilddetektion/data/originals",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.jshint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.jshint": "",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "python.packages.toolwindow.project.migrated.to.right.top.v2": "true",
+    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.interpreter.PyWorkspaceStructureConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Baciu\Desktop\Facultate_3\Proiect de cercetare\KI_Bilddetektion\data\originals" />
       <recent name="C:\Users\bogda\Desktop\Facultate_3\Proiect de cercetare\KI_Bilddetektion\data\originals" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -268,6 +265,8 @@
       <workItem from="1795101078235" duration="1321000" />
       <workItem from="1795103206963" duration="3494000" />
       <workItem from="1795299606595" duration="4647000" />
+      <workItem from="1795304300953" duration="97000" />
+      <workItem from="1795377448472" duration="4317000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -397,7 +396,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795303158008</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="am facut mici schimbari in fisiere si am mutat ceva .csv-uri si .png-ul in results/test">
+      <option name="closed" value="true" />
+      <created>1795304390241</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1795304390241</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -420,7 +427,8 @@
     <MESSAGE value="am mai avansat" />
     <MESSAGE value="am incarcat si detectorul care verifica originalele si si pozele cu compresiile diferite si le incarca in detector_results.csv" />
     <MESSAGE value="am facut si calculele care arata diferenta intre om si detector am facut plot si am bagat statisticile in accuracy_comparison.png&#10;am modificat si ceva in app.py plus ca am facut si run_project.py iar acolo am facut un mic UI prin care eu selectez ce vreau sa fac adica daca vreau sa mai adaug incercari sau sa actualizez statisticile etc.&#10;adica run_project.py ma ajuta ca eu sa nu mai rulez fiecare fisier .py in parte." />
-    <option name="LAST_COMMIT_MESSAGE" value="am facut si calculele care arata diferenta intre om si detector am facut plot si am bagat statisticile in accuracy_comparison.png&#10;am modificat si ceva in app.py plus ca am facut si run_project.py iar acolo am facut un mic UI prin care eu selectez ce vreau sa fac adica daca vreau sa mai adaug incercari sau sa actualizez statisticile etc.&#10;adica run_project.py ma ajuta ca eu sa nu mai rulez fiecare fisier .py in parte." />
+    <MESSAGE value="am facut mici schimbari in fisiere si am mutat ceva .csv-uri si .png-ul in results/test" />
+    <option name="LAST_COMMIT_MESSAGE" value="am facut mici schimbari in fisiere si am mutat ceva .csv-uri si .png-ul in results/test" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794085623141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

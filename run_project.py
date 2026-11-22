@@ -27,6 +27,7 @@ def main():
         if choice == "1":
             run_script("main.py")
             run_script("prepare_labels.py")
+            run_script("validate_data.py")
             run_script("compression_report.py")
 
         elif choice == "2":
@@ -42,7 +43,9 @@ def main():
                 check=True,
             )
 
+
         elif choice == "3":
+            run_script("validate_data.py")
             run_script("run_detector.py")
             run_script("analyze_results.py")
             run_script("plot_results.py")

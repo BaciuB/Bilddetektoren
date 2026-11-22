@@ -2,7 +2,6 @@ from pathlib import Path
 
 PROJECT_FOLDER = Path(__file__).resolve().parent
 
-# Folosește "test" acum și "final" la experimentul propriu-zis.
 EXPERIMENT_MODE = "test"
 
 if EXPERIMENT_MODE not in {"test", "final"}:
