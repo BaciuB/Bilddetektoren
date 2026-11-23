@@ -20,9 +20,9 @@ def main():
     print("2. Pornește interfața pentru participanți")
     print("3. Rulează detectorul, statisticile și graficul")
     print("4. Actualizează doar statisticile și graficul")
+    print("5. Vezi participanții și starea testelor")
 
-    choice = input("\nAlege 1, 2, 3 sau 4: ").strip()
-
+    choice = input("\nAlege 1, 2, 3, 4 sau 5: ").strip()
     try:
         if choice == "1":
             run_script("main.py")
@@ -54,6 +54,8 @@ def main():
             run_script("analyze_results.py")
             run_script("plot_results.py")
 
+        elif choice == "5":
+            run_script("list_participants.py")
         else:
             print("Opțiune invalidă.")
 

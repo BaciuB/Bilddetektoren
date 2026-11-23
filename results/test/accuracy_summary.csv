@@ -1,0 +1,7 @@
+﻿source,version,total,correct,unknown,accuracy_percent
+detector,Q1,2,2,0,100.0
+detector,Q10,1,1,0,100.0
+detector,Q20,1,0,0,0.0
+human,Q1,2,1,0,50.0
+human,Q10,1,1,0,100.0
+human,Q20,1,1,0,100.0

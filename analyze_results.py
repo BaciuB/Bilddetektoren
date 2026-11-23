@@ -65,8 +65,33 @@ def main():
         lambda: {"total": 0, "correct": 0, "unknown": 0}
     )
 
+    complete_sessions = 0
+    skipped_sessions = 0
+    expected_images = set(labels)
+
     for participant_file in participant_files:
-        for row in read_csv(participant_file):
+        participant_rows = read_csv(participant_file)
+
+        answered_images = [
+            row["image"] for row in participant_rows
+        ]
+
+        is_complete = (
+                len(answered_images) == len(expected_images)
+                and set(answered_images) == expected_images
+        )
+
+        if not is_complete:
+            skipped_sessions += 1
+            print(
+                f"Sesiune exclusă, incompletă sau cu imagini repetate: "
+                f"{participant_file.name}"
+            )
+            continue
+
+        complete_sessions += 1
+
+        for row in participant_rows:
             image_name = row["image"]
             version = row["version"]
             key = (image_name, version)
@@ -93,9 +118,14 @@ def main():
                 group["correct"] += int(prediction == true_label)
                 group["unknown"] += int(prediction == "unknown")
 
+    print(f"\nSesiuni complete incluse: {complete_sessions}")
+    print(f"Sesiuni excluse: {skipped_sessions}")
+
     if not statistics:
-        print("Fișierele participanților nu conțin răspunsuri.")
-        return
+        raise SystemExit(
+            "Nu există sesiuni complete. "
+            "Completează un test înainte să generezi rezultatele."
+        )
 
     rows = []
 

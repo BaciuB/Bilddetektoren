@@ -4,19 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="am inlocuit in prepare_labels.py cateva randuri si am scris altele noi ca sa nu mai puna poza reala la fiecare poza noua ci sa lase liber. &#10;Am adaugat si prima poza facuta cu AI care dupa mine pare destul de reala.&#10;am creat si fisierul validate_data.py care verifica ca datele mele sa fie complete pentru a nu face statistici pe date incomplete adica verifica in mare daca exista la imaginile inserate labelul respectiv plus daca exista mai multe compresii sau face si o verificare pentru daca lista csv contine imagini care au fost scoase din folder">
-      <change afterPath="$PROJECT_DIR$/data/compressed/quality_1/AI_1_q1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/compressed/quality_10/AI_1_q10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/compressed/quality_20/AI_1_q20.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/compressed/quality_40/AI_1_q40.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/originals/AI_1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/validate_data.py" afterDir="false" />
+    <list default="true" id="316bd9f6-feda-40ae-87e6-44da200defa7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/list_participants.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/image_labels.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/image_labels.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepare_labels.py" beforeDir="false" afterPath="$PROJECT_DIR$/prepare_labels.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/compression_summary.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/compression_summary.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/analyze_results.py" beforeDir="false" afterPath="$PROJECT_DIR$/analyze_results.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run_project.py" beforeDir="false" afterPath="$PROJECT_DIR$/run_project.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +19,7 @@
   </component>
   <component name="DatabaseLocalColorSettings">
     <colors>
+      <entry key="182f7a2b-5c84-4d8b-b791-a0bef8cc8881" value="" />
       <entry key="1c20b15c-12ff-446c-b383-ca77b78944a5" value="" />
       <entry key="36c4ef21-8aec-4484-bd36-f6f0bbb72687" value="" />
     </colors>
@@ -266,7 +261,7 @@
       <workItem from="1795103206963" duration="3494000" />
       <workItem from="1795299606595" duration="4647000" />
       <workItem from="1795304300953" duration="97000" />
-      <workItem from="1795377448472" duration="4317000" />
+      <workItem from="1795377448472" duration="7146000" />
     </task>
     <task id="LOCAL-00001" summary="Descrierea proiectului">
       <option name="closed" value="true" />
@@ -404,7 +399,15 @@
       <option name="project" value="LOCAL" />
       <updated>1795304390241</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="am inlocuit in prepare_labels.py cateva randuri si am scris altele noi ca sa nu mai puna poza reala la fiecare poza noua ci sa lase liber. &#10;Am adaugat si prima poza facuta cu AI care dupa mine pare destul de reala.&#10;am creat si fisierul validate_data.py care verifica ca datele mele sa fie complete pentru a nu face statistici pe date incomplete adica verifica in mare daca exista la imaginile inserate labelul respectiv plus daca exista mai multe compresii sau face si o verificare pentru daca lista csv contine imagini care au fost scoase din folder">
+      <option name="closed" value="true" />
+      <created>1795381911316</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1795381911316</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -428,7 +431,8 @@
     <MESSAGE value="am incarcat si detectorul care verifica originalele si si pozele cu compresiile diferite si le incarca in detector_results.csv" />
     <MESSAGE value="am facut si calculele care arata diferenta intre om si detector am facut plot si am bagat statisticile in accuracy_comparison.png&#10;am modificat si ceva in app.py plus ca am facut si run_project.py iar acolo am facut un mic UI prin care eu selectez ce vreau sa fac adica daca vreau sa mai adaug incercari sau sa actualizez statisticile etc.&#10;adica run_project.py ma ajuta ca eu sa nu mai rulez fiecare fisier .py in parte." />
     <MESSAGE value="am facut mici schimbari in fisiere si am mutat ceva .csv-uri si .png-ul in results/test" />
-    <option name="LAST_COMMIT_MESSAGE" value="am facut mici schimbari in fisiere si am mutat ceva .csv-uri si .png-ul in results/test" />
+    <MESSAGE value="am inlocuit in prepare_labels.py cateva randuri si am scris altele noi ca sa nu mai puna poza reala la fiecare poza noua ci sa lase liber. &#10;Am adaugat si prima poza facuta cu AI care dupa mine pare destul de reala.&#10;am creat si fisierul validate_data.py care verifica ca datele mele sa fie complete pentru a nu face statistici pe date incomplete adica verifica in mare daca exista la imaginile inserate labelul respectiv plus daca exista mai multe compresii sau face si o verificare pentru daca lista csv contine imagini care au fost scoase din folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="am inlocuit in prepare_labels.py cateva randuri si am scris altele noi ca sa nu mai puna poza reala la fiecare poza noua ci sa lase liber. &#10;Am adaugat si prima poza facuta cu AI care dupa mine pare destul de reala.&#10;am creat si fisierul validate_data.py care verifica ca datele mele sa fie complete pentru a nu face statistici pe date incomplete adica verifica in mare daca exista la imaginile inserate labelul respectiv plus daca exista mai multe compresii sau face si o verificare pentru daca lista csv contine imagini care au fost scoase din folder" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/KI_Bilddetektion$main.coverage" NAME="main Coverage Results" MODIFIED="1794085623141" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
